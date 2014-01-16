@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Rasmus Andersson</title>
+  <link href="http://rsms.me/atom.xml" rel="self"/>
+  <link href="http://rsms.me/"/>
+  <updated>2014-01-15T21:17:59-08:00</updated>
+  <id>http://rsms.me/</id>
+  <author>
+    <name>Rasmus Andersson</name>
+    <email>rasmus@notion.se</email>
+  </author>
+  
+</feed>
