@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Rasmus Andersson</title>
+  <link href="http://rsms.me/atom.xml" rel="self"/>
+  <link href="http://rsms.me/"/>
+  <updated>2014-01-15T20:01:48-08:00</updated>
+  <id>http://rsms.me/</id>
+  <author>
+    <name>Rasmus Andersson</name>
+    <email>rasmus@notion.se</email>
+  </author>
+  
+  <entry>
+    <title>First Week Complete!</title>
+    <link href="http://rsms.me/2013/11/18/first-week-complete.html"/>
+    <updated>2013-11-18T08:23:25-08:00</updated>
+    <id>http://rsms.me/2013/11/18/first-week-complete</id>
+    <content type="html">&lt;p&gt;After one long, intense week, I can say I’ve survived my first week at Hack Reactor! (Also affectionately referred to as ‘Hell Week’.) In the first 6 days we had 27 lectures (roughly an entire semester’s worth of lectures out in the ‘traditional’ world), interspersed with coding exercises and small projects. I have NEVER learned so much in one week. The pace of learning is unbelievably fast. For example, we may have a lecture at 9am, followed by another lecture at 11am, with an hour to work on our paired project exercises in between. And the lecture at 11am builds on the concepts from the 9am lecture, so if the concepts are still shaky for you, you better learn them by 11am.
+Fortunately, we have two big advantages on our side: 1) The Hack Reactor team have their material down to a science and do a phenomenal job breaking down the concepts into logical steps that build on what we already know, and 2) The Hack Reactor team have done a very thorough job screening for applicants that are incredibly driven, ambitious, and bright. I am in awe of the quality of my peers. Amongst us we have lawyers, hardware engineers, college dropouts, recent college grads, people fresh out of the navy, and even a neuroscience PhD. The one thing everyone has in common is they are incredibly bright and driven. The energy in the room just crackles.
+Week 1 was very intense, but also very rewarding. I know worlds more than I knew just 7 days ago. I’m much more comfortable with concepts that were previously fuzzy to me, such as object prototypes, the ‘this’ variable, ‘call’ and ‘apply’, and classes, among others. Now here comes week 2!&lt;/p&gt;
+</content>
+    <author>
+      <name>Rasmus Andersson</name>
+      <uri>http://rsms.me/about/</uri>
+    </author>
+  </entry>
+  
+  <entry>
+    <title>First Day</title>
+    <link href="http://rsms.me/2013/11/11/first-day.html"/>
+    <updated>2013-11-11T07:53:23-08:00</updated>
+    <id>http://rsms.me/2013/11/11/first-day</id>
+    <content type="html">&lt;p&gt;The day is upon us! Today will be my first day at Hack Reactor. I’ve now had a week off since I quit my job, to decompress and prepare for the course. I used that time for a quick trip to relax on a tropical beach in Panama, courtesy of frequent flyer miles. Upon returning on Saturday I shaved my head and had a party to celebrate my new beginning. I plan not to cut my hair or shave for the duration of the course (except maybe at the end for job interviews). Now my skill at coding can be measured by the length of my hair and beard. (Some say dorky, I say baller.)
+Hack Reactor here I come!
+(The above is a picture of my island in Panama)&lt;/p&gt;
+</content>
+    <author>
+      <name>Rasmus Andersson</name>
+      <uri>http://rsms.me/about/</uri>
+    </author>
+  </entry>
+  
+  <entry>
+    <title>Head-shaving —- before and after.</title>
+    <link href="http://rsms.me/2013/11/11/head-shaving-before-and-after.html"/>
+    <updated>2013-11-11T07:45:02-08:00</updated>
+    <id>http://rsms.me/2013/11/11/head-shaving-before-and-after</id>
+    <content type="html">
+</content>
+    <author>
+      <name>Rasmus Andersson</name>
+      <uri>http://rsms.me/about/</uri>
+    </author>
+  </entry>
+  
+  <entry>
+    <title>A lot of the work that has helped me succeed was outside of the classroom, but in general I think it was a good experience.</title>
+    <link href="http://rsms.me/2013/10/30/a-lot-of-the-work-that-has-helped-me-succeed-was.html"/>
+    <updated>2013-10-30T13:03:49-07:00</updated>
+    <id>http://rsms.me/2013/10/30/a-lot-of-the-work-that-has-helped-me-succeed-was</id>
+    <content type="html">&lt;p&gt;A lot of the work that has helped me succeed was outside of the classroom, but in general I think it was a good experience.—Dev Bootcamp alum&lt;/p&gt;
+</content>
+    <author>
+      <name>Rasmus Andersson</name>
+      <uri>http://rsms.me/about/</uri>
+    </author>
+  </entry>
+  
+  <entry>
+    <title>Bootcamp Advice #17</title>
+    <link href="http://rsms.me/2013/10/30/bootcamp-advice-17.html"/>
+    <updated>2013-10-30T10:01:31-07:00</updated>
+    <id>http://rsms.me/2013/10/30/bootcamp-advice-17</id>
+    <content type="html">&lt;p&gt;Here is a transcript of the advice I received from a Dev Bootcamp alum. This email exchange took place in August 2013. For anonymity, I’ll call the student ‘John’.&lt;/p&gt;
+
+&lt;p&gt;My Email:
+Hi John,Congrats on your new job at Widgets Inc! Thanks for offering advice from your experience at Dev Bootcamp. I’m trying to make an informed decision between the various coding bootcamps available and any insights you can provide are much appreciated. I have 3 questions:1) What is your opinion of the overall quality of the program?2) How difficult was it to find a job upon graduating?3) If you had to choose, would you do Dev Bootcamp all over again?Thanks for your help and I appreciate your time!Best,Christian
+Email Response:
+Thanks! 1.) I think the overall quality was reasonable. The program was relatively well structured and helped me gain the foundations of how to code. A lot of the work that has helped me succeed was outside of the classroom, but in general I think it was a good experience.2.) I had a background in Applied Math, so that certainly helped me get a job after Devbootcamp as it is also an engineering discipline. It didn’t take me very long to find great job offers.3.) At the time there weren’t many other options to Devbootcamp so I would have done it again. Saying that, it looks the price has gone up considerably. I would look into other programs that were maybe cheaper. I assume the various programs that are run don’t teach you much that is all that different because there is only so much you can learn with 2-3 months. A lot of it is just gaining the foundation in order to learn at a more reasonable pace on your own.Let me know if you have any other questions. Hope this was helpful!&lt;/p&gt;
+</content>
+    <author>
+      <name>Rasmus Andersson</name>
+      <uri>http://rsms.me/about/</uri>
+    </author>
+  </entry>
+  
+  <entry>
+    <title>Knowing what I know now, I would investigate more into other programs and see if I’m leaning hard in any particular direction beforehand (more visual front-end work, more back-end work, iPhone, Android?)</title>
+    <link href="http://rsms.me/2013/10/29/knowing-what-i-know-now-i-would-investigate-more.html"/>
+    <updated>2013-10-29T13:04:08-07:00</updated>
+    <id>http://rsms.me/2013/10/29/knowing-what-i-know-now-i-would-investigate-more</id>
+    <content type="html">&lt;p&gt;Knowing what I know now, I would investigate more into other programs and see if I’m leaning hard in any particular direction beforehand (more visual front-end work, more back-end work, iPhone, Android?)—Dev Bootcamp alum&lt;/p&gt;
+</content>
+    <author>
+      <name>Rasmus Andersson</name>
+      <uri>http://rsms.me/about/</uri>
+    </author>
+  </entry>
+  
+  <entry>
+    <title>Bootcamp Advice #16</title>
+    <link href="http://rsms.me/2013/10/29/bootcamp-advice-16.html"/>
+    <updated>2013-10-29T10:01:00-07:00</updated>
+    <id>http://rsms.me/2013/10/29/bootcamp-advice-16</id>
+    <content type="html">&lt;p&gt;Here is a transcript of the advice I received from a Dev Bootcamp Chicago alum. This email exchange took place in August 2013. For anonymity, I’ll call the student ‘John’.&lt;/p&gt;
+
+&lt;p&gt;My Email:
+Hey John,Thanks for your response. I’m unavailable the next two evenings, but since I only have 3 short questions, maybe I can just ask you via email:1) What is your opinion of the overall quality of the program?2) How difficult was it to find a job upon graduating?3) If you had to choose, would you do Dev Bootcamp all over again?Thanks for your help and I appreciate your time!Best,Christian
+Email Response:
+Here you go:1) What is your opinion of the overall quality of the program?&lt;/p&gt;
+
+&lt;p&gt;I attended DevBootcamp in Chicago. It would have been very unlikely for me to learn as much as I did in those few months by myself. The students, teachers and mentors made it a strong learning environment. I walked away with skills, friendships, a strong network, and my expectations exceeded.&lt;/p&gt;
+
+&lt;p&gt;2) How difficult was it to find a job upon graduating?&lt;/p&gt;
+
+&lt;p&gt;A lot of factors at play here. Difficulty depends on your previous background, how much effort you put into the program, and where you want to end up. Some students come in with engineering backgrounds and a bunch of coding experience, some come in with no experience at all. There will naturally be an advantage for the former. However, if you put in the effort, there are more than enough resources to get you prepared for a job afterwards. I’m currently in the Bay Area, so job openings can get competitive here, moreso than other areas in the US, but the # of hiring companies is still enormous.&lt;/p&gt;
+
+&lt;p&gt;3) If you had to choose, would you do Dev Bootcamp all over again?&lt;/p&gt;
+
+&lt;p&gt;Knowing what I know now, I would investigate more into other programs and see if I’m leaning hard in any particular direction beforehand (more visual front-end work, more back-end work, iPhone, Android?). I’ve heard great things about Hack Reactor, App Academy, Bloc, Mobile Makers, etc. But at the end of the day, Dev Bootcamp turned out to be a good match for myself in that I learned the full-stack (both front-end and back-end technologies), which is where I want to be working in.&lt;/p&gt;
+
+&lt;p&gt;Feel free to contact me whenever!John&lt;/p&gt;
+</content>
+    <author>
+      <name>Rasmus Andersson</name>
+      <uri>http://rsms.me/about/</uri>
+    </author>
+  </entry>
+  
+  <entry>
+    <title>If you have the opportunity, go for it. DBC was one of the best decisions I’ve ever made.</title>
+    <link href="http://rsms.me/2013/10/28/if-you-have-the-opportunity-go-for-it-dbc-was.html"/>
+    <updated>2013-10-28T13:04:14-07:00</updated>
+    <id>http://rsms.me/2013/10/28/if-you-have-the-opportunity-go-for-it-dbc-was</id>
+    <content type="html">&lt;p&gt;If you have the opportunity, go for it. DBC was one of the best decisions I’ve ever made.—Dev Bootcamp alum&lt;/p&gt;
+</content>
+    <author>
+      <name>Rasmus Andersson</name>
+      <uri>http://rsms.me/about/</uri>
+    </author>
+  </entry>
+  
+  <entry>
+    <title>Bootcamp Advice #15</title>
+    <link href="http://rsms.me/2013/10/28/bootcamp-advice-15.html"/>
+    <updated>2013-10-28T10:01:00-07:00</updated>
+    <id>http://rsms.me/2013/10/28/bootcamp-advice-15</id>
+    <content type="html">&lt;p&gt;Here is a transcript of the advice I received from a Dev Bootcamp alum. This email exchange took place in August 2013. For anonymity, I’ll call the student ‘John’.&lt;/p&gt;
+
+&lt;p&gt;My Email:
+Hi John,Thanks for offering advice from your experience at Dev Bootcamp. I’m trying to make an informed decision between the various coding bootcamps available and any insights you can provide are much appreciated. I have 3 questions:1) What is your opinion of the overall quality of the program?2) How difficult was it to find a job upon graduating?3) If you had to choose, would you do Dev Bootcamp all over again?Thanks for your help and I appreciate your time!Best,Christian
+Email Response:
+Hi Christian,If you have the opportunity, go for it. DBC was one of the best decisions I’ve ever made. The instruction was great, pace was ridiculous and I learned more in 9 weeks than in certain years of college.I came in with a job, but most of my cohort and those before mine quit before starting. Job hunting is definitely big in everyone’s minds, but this is a pretty smoking hot market for developers so no one expects to have a huge amount of trouble. It usually takes folks less than a month to find a job they really like.I’d do it over again, no question, but everyone’s situation is different. What’s your story - what are you up to now, and what are you interested in doing?Feel free to give me a call if the LinkedIn messaging thing is a little too back-and-forth.Good luck,John&lt;/p&gt;
+</content>
+    <author>
+      <name>Rasmus Andersson</name>
+      <uri>http://rsms.me/about/</uri>
+    </author>
+  </entry>
+  
+  <entry>
+    <title>DBC is an extremely high quality program…It’s a life changing experience that I would do again if I had the time and money.</title>
+    <link href="http://rsms.me/2013/10/27/dbc-is-an-extremely-high-quality-program-its-a.html"/>
+    <updated>2013-10-27T13:03:39-07:00</updated>
+    <id>http://rsms.me/2013/10/27/dbc-is-an-extremely-high-quality-program-its-a</id>
+    <content type="html">&lt;p&gt;DBC is an extremely high quality program…It’s a life changing experience that I would do again if I had the time and money.—Dev Bootcamp alum&lt;/p&gt;
+</content>
+    <author>
+      <name>Rasmus Andersson</name>
+      <uri>http://rsms.me/about/</uri>
+    </author>
+  </entry>
+  
+</feed>
