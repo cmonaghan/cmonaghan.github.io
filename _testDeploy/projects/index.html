@@ -1,0 +1,294 @@
+<!DOCTYPE HTML>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+    <title>Projects &mdash; Christian Monaghan</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href='http://fonts.googleapis.com/css?family=Poly:400,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" media="screen, projection" href="/res/screen.css" type="text/css">
+    <link rel="stylesheet" media="print" href="/res/print.css" type="text/css">
+    <link rel="alternate" type="application/atom+xml" title="Rasmus Andersson" href="http://feeds.feedburner.com/hunch">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="/res/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/res/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/res/apple-touch-icon-114x114-precomposed.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@rsms">
+    
+    <meta property="fb:admins" content="728642302">
+    <meta property="fb:app_id" content="38027689216">
+    
+    <meta property="og:title" content="Projects">
+      
+      <meta name="description" content="Projects Not in any sane or particular order Sol — educational virtual machine implementation. (GH) Hue — a functional programming language. (GH) PeerTalk — a...">
+      <meta name="og:description" content="Projects Not in any sane or particular order Sol — educational virtual machine implementation. (GH) Hue — a functional programming language. (GH) PeerTalk — a...">
+      
+    
+    
+    
+    
+    <meta property="og:url" content="http://rsms.me/projects/">
+    <meta property="og:site_name" content="rsms.me">
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="en_GB" />
+    
+    
+    <script>
+  //html { zoom:50%; }
+  if (window.addEventListener) {
+    var sidebarAdjustTimer;
+    function updateOrientation(orientationChangeEvent) {
+      if (sidebarAdjustTimer) clearInterval(sidebarAdjustTimer);
+      //console.log('window.orientation -> '+window.orientation);
+      if (window.orientation === -90 || window.orientation === 90) {
+        // landscape
+        var sidebar = document.getElementById('sidebar');
+        if (!sidebar.src || sidebar.src === '') {
+          sidebar.src = '/archive/sidebar.html';
+        }
+        sidebarAdjustTimer = setInterval(function() {
+          var height = Math.round(document.height * 1.6);
+          if (sidebar.height != height) {
+            sidebar.height = height;
+            sidebar.style.height = height + 'px';
+          }
+        },500);
+      } else {
+        // portrait
+      }
+    }
+    window.addEventListener('orientationchange', updateOrientation);
+    document.addEventListener('DOMSubtreeModified', function(ev) {
+      if (document.getElementById('sidebar')) {
+        document.removeEventListener('DOMSubtreeModified', arguments.callee);
+        updateOrientation();
+      }
+    });
+  }
+</script>
+    
+    
+  </head>
+  <body>
+    <!--script>/*
+      var s;
+      if (document.location.hostname === 'rsms.me') {
+        s = document.createElement('script');
+        s.async = true;
+        s.src = "http://connect.facebook.net/en_US/all.js#appId=38027689216&xfbml=1";
+        document.getElementsByTagName('head')[0].appendChild(s);
+      }
+
+      if (window.navigator.userAgent.indexOf('iPad') != -1) {
+        document.documentElement.className = 'ios ipad';
+        window.rsmsHostIsIOS = 'ipad';
+      } else if (window.navigator.userAgent.indexOf('iPhone') != -1) {
+        document.documentElement.className = 'ios iphone';
+        window.rsmsHostIsIOS = 'iphone';
+      }
+    */</script>
+    <div id="fb-root"></div><script></script-->
+    <iframe id="sidebar"></iframe>
+    <header>
+      <h1 class="logo" style="text-decoration:none" onclick="document.location.href='/';"><a href="/">
+        <!-- <img src="/res/christian-monaghan-logo.png" width="320" height="50" alt="Signature"> -->
+        Christian Monaghan
+      </a></h1>
+<!--       <ul class="navigation">
+        <li><a href="/photos/" title="A selection of recent photography">Photography</a></li>
+        <li><a href="/projects/"class="active" title="Projects I am or was involved in">Projects</a></li>
+        <li><a href="/archive/" title="Archived articles">Archive</a></li>
+        <li><a href="/about/">About me</a></li>
+      </ul> -->
+    </header>
+    <!--div class="wrapper content"-->
+      <div class="content">
+  <div class="dirindex">
+  <h2>
+    
+      Projects
+    
+  </h2>
+
+  
+  <p class="preamble">
+    <p><small><em>Not in any sane or particular order</em></small></p>
+
+<ul>
+<li><a href="/2012/10/14/sol-a-sunny-little-virtual-machine">Sol</a> — educational virtual machine implementation.  (<a href="https://github.com/rsms/sol">GH</a>)</li>
+<li><a href="/2012/05/14/hue">Hue</a> — a functional programming language. (<a href="https://github.com/rsms/hue">GH</a>)</li>
+<li><a href="http://rsms.me/peertalk/">PeerTalk</a> — a small iOS and OS X Cocoa library for communicating over USB and TCP.</li>
+<li><a href="http://rsms.me/uilayer/">UILayer</a> — an API on top of the WebKit DOM for working with the concept of layers. High performance UI rendering and animation.</li>
+<li><a href="http://movelang.org/">Move</a> — a simple programming language intended for the young generation</li>
+<li><a href="/projects/fnews/">Fnews</a> — dust off your iPad and use it as a pretty Facebook news feed &ldquo;photo frame&rdquo;</li>
+<li><a href="http://kodapp.com/">Kod</a> — programmers' editor for OS X</li>
+<li><a href="/about/spotify/">Spotify</a> — the best music service in the world</li>
+<li><a href="http://spotni.cc/">Spotni.cc</a> — Spotify playlist helper</li>
+<li><a href="https://github.com/rsms/cocui">CocUI</a> — a Cocoa app prototyping toolkit</li>
+<li><a href="https://github.com/rsms/scrup">Scrup</a> — take a screenshot (in OS X) &amp; paste have a URL in the pasteboard a second later</li>
+<li><a href="https://github.com/rsms/js-fragment">Fragment</a> — client-side templating for modern thinkers</li>
+<li><a href="https://github.com/liesen/libspotify-node">libspotify-node</a> — libspotify for Node.js</li>
+<li><a href="https://github.com/rsms/webkit-editor">WebKit text editor</a> — a simple and buggy text editor with code syntax highlighting for WebKit browsers</li>
+<li><a href="http://hunch.se/stuff/">Hunch Stuff</a> — pretty, funny and interesting things created or found</li>
+<li><a href="http://dropular.net/">Dropular</a> — share and find pretty and interesting images</li>
+<li><a href="https://github.com/rsms/twitter-icon">Twitter.app icon</a> — alternative Twitter.app icon</li>
+<li><a href="https://github.com/rsms/flup">Flup</a> — drag-and-drop to quickly put images on Flickr</li>
+<li><a href="https://github.com/rsms/chromium-tabs">ChromiumTabs.framework</a> — Chromium tabs for cocoa applications</li>
+<li><a href="https://github.com/rsms/gitblog">Gitblog</a> — git-based blog/cms for PHP, meant as a replacement for Wordpress</li>
+<li><a href="https://github.com/rsms/browser-require">browser-require</a> — CommonJS module require() for web browsers</li>
+<li><a href="https://github.com/rsms/dropub">Dropub</a> — small drop-in-the-menubar-to-publish service for OS X</li>
+<li><a href="https://github.com/rsms/tc">Tokyo Cabinet Python bindings</a></li>
+<li><a href="https://github.com/rsms/oui">Oui</a> — Web-app client-server framework developed as part of dropular.net</li>
+<li><a href="https://github.com/rsms/hunchor">Hunchor</a> — URL anchor triggering for websites</li>
+<li><a href="https://github.com/rsms/node-couchdb-min">node-couchdb-min</a> — Minimalistic but fully-featured CouchDB module for Node.js</li>
+<li><a href="https://github.com/rsms/js-object-merge">js-object-merge</a> — 3-way JavaScript object merging</li>
+<li><a href="https://github.com/rsms/js-lru">js-lru</a> — a fast, simple &amp; universal Least Recently Used (LRU) cache in JavaScript</li>
+<li><a href="http://nodejs.org/">Node.js</a> — evented I/O for v8 javascript (core dev 2010-2011)</li>
+<li><a href="https://github.com/rsms/Go.tmbundle">Go.tmbundle</a> — TextMate bundle for the Go! programming language</li>
+<li><a href="https://github.com/rsms/hunch-upload">hunch-upload</a> — HTML file uploads with support for multiple uploads and progress indication</li>
+<li><a href="http://python-smisk.org/">Smisk</a> — high performance web service framework, written in C but controlled by Python</li>
+<li><a href="https://github.com/rsms/phpab">Abstract Base</a> — PHP runtime library that has been in heavy production for many years</li>
+<li><a href="https://github.com/rsms/elua">eLUA</a> — embedded LUA (e.g. for serving web sites)</li>
+<li><a href="https://github.com/rsms/pyca">PyCA</a> — Python C extension Assistant</li>
+<li><a href="https://github.com/rsms/lsreg">lsreg</a> — OS X Launch Services registry C library</li>
+<li><a href="https://github.com/rsms/rhp">RHP</a> — Ruby Hypertext Preprocessor</li>
+</ul>
+
+
+<h2>More hacks</h2>
+
+  </p>
+  
+
+  
+  
+  <ul class="pages">
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+  </ul>
+</div>
+
+</div>
+
+<!-- During authoring, this automatically reloads the post as its changing -->
+<script type="text/javascript">
+(function() {
+var qs = document.location.search;
+var current_etag = qs.match(/etag=("?[a-zA-Z0-9_-]+)/);
+if (current_etag !== null) { current_etag = current_etag[1]; }
+var scrolly = qs.match(/scrolly=([0-9]+)/);
+if (scrolly) {
+  scrolly = parseInt(scrolly[1]);
+  window.scrollTo(window.scrollX, scrolly);
+  setTimeout(function () {
+    window.scrollTo(window.scrollX, scrolly);
+  }, 10);
+}
+
+function check() {
+  var r = new XMLHttpRequest();
+  var url = document.location.href + ((qs && qs !== '') ? '&' : '?') + 'r=' + Math.random();
+  r.open('GET', url, true);
+  r.onreadystatechange = function() {
+    if (r.readyState == 4){
+      var found_etag = r.getResponseHeader('Etag').replace(/^"|"$/g);
+      //console.log('current_etag:', current_etag, 'found_etag:', found_etag);
+      if (current_etag === null) {
+        current_etag = found_etag;
+      } else if (found_etag !== current_etag) {
+        document.location.search =
+          '?etag=' + encodeURIComponent(found_etag) +
+          '&scrolly=' + window.scrollY;
+        return;
+      }
+      setTimeout(check, 500);
+    }
+  };
+  r.send(null);
+}
+check();
+})();
+</script>
+
+
+    <!--/div-->
+
+    
+    <!--div class="content sub">
+      <h2 id="comments">Comments</h2>
+      <div class="fb-comments" data-href="http://rsms.me/projects/index.html" data-num-posts="3" data-width="550" data-font="arial"></div>
+    </div-->
+    
+
+    
+
+    
+    <footer>
+      <p>
+        <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US" class="cc"><img src="/res/cc-cc.png" class="cc">
+        <img src="/res/cc-by.png" class="cc"></a>
+        This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons License</a>
+      </p>
+    </footer>
+    
+
+    <script>
+  // curry pre < code to be able to get prettified
+  // If the first line is
+  //   #!-langname\n
+  // Then that line is removed from the code and "langname" is given to prettify.
+  // If "langname" is "none", that prettify is not applied at all.
+  var n,i,L,cn,lang,v = document.getElementsByTagName('pre');
+  var m,lang_re = /^#\!-([a-zA-Z0-9_-]+)\n/;
+  for (i=0,L=v.length;i<L;++i) {
+    n = v.item(i);
+    if ((cn = n.firstChild) && cn.nodeName == 'CODE') {
+      lang = null;
+      if (cn.firstChild.nodeType === Node.TEXT_NODE) {
+        m = lang_re.exec(cn.firstChild.nodeValue);
+        if (m) {
+          lang = m[1].toLowerCase();
+          cn.firstChild.nodeValue = cn.firstChild.nodeValue.substr(m[0].length);
+          if (lang === 'none') {
+            continue;
+          }
+        }
+      }
+      n.setAttribute('class', 'prettyprint'+(lang ? ' lang-' + lang : ''));
+    }
+  }
+</script>
+<script async src="/res/prettify.js"></script>
+
+    <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-9078556-2']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+  </body>
+</html>
