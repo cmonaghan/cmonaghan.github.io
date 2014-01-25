@@ -2,7 +2,7 @@
 <html lang="en" prefix="og: http://ogp.me/ns#">
   <head>
     <meta charset="utf-8">
-    <title>DBX 2013 &mdash; Christian Monaghan</title>
+    <title>Readify Numbers &mdash; Christian Monaghan</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,23 +21,21 @@
     <meta property="fb:admins" content="728642302">
     <meta property="fb:app_id" content="38027689216">
     
-    <meta property="og:title" content="DBX 2013">
+    <meta property="og:title" content="Readify Numbers">
       
-      <meta name="description" content="Dropbox&rsquo;s first developer conference DBX was a lot of fun. Me and Adam Polselli gave a talk on &ldquo;Designing Products for People&rdquo; as seen in...">
-      <meta name="og:description" content="Dropbox&rsquo;s first developer conference DBX was a lot of fun. Me and Adam Polselli gave a talk on &ldquo;Designing Products for People&rdquo; as seen in...">
+      <meta name="description" content="I was recently working on a project that required me to display large numbers to the user (in the hundreds of thousands or millions). No one wants to read a long string of zeros, trying to figure out if the number is 100000000 or 10000000. I figured someone must have already written a simple script to perform this exact operation but after a bit of searching, I came up empty. So I decided to write my own script and here I am sharing it with you.">
+      <meta name="og:description" content="I was recently working on a project that required me to display large numbers to the user (in the hundreds of thousands or millions). No one wants to read a long string of zeros, trying to figure out if the number is 100000000 or 10000000. I figured someone must have already written a simple script to perform this exact operation but after a bit of searching, I came up empty. So I decided to write my own script and here I am sharing it with you.">
       
     
     
     
-    <meta property="og:image" content="http://farm8.staticflickr.com/7451/9254559408_c34e7b9304_c.jpg">
     
-    
-    <meta property="og:url" content="http://rsms.me/2013/07/09/dbx2013.html">
+    <meta property="og:url" content="http://rsms.me/2014/01/15/readified-numbers.html">
     <meta property="og:site_name" content="rsms.me">
     <meta property="og:type" content="article">
     <meta property="og:locale" content="en_GB" />
     
-    <meta property="article:published_time" content="2013-07-09">
+    <meta property="article:published_time" content="2014-01-15">
     
     
     <script>
@@ -109,26 +107,87 @@
       </ul> -->
     </header>
     <!--div class="wrapper content"-->
-      <div class="content photo-post">
+      <div class="content">
   <div class="post single">
     
-    <div class="body"><p><img src="http://farm8.staticflickr.com/7451/9254559408_e1026556da_k.jpg" alt="" />
-Dropbox&rsquo;s first developer conference <em>DBX</em> was a lot of fun. Me and Adam Polselli gave a talk on <em>&ldquo;Designing Products for People&rdquo;</em> as seen in one of the videos below.</p>
+    <h1>Readify Numbers</h1>
+    <info datetime="2014-01-15">
+      Jan 15, 2014
+    </info>
+    
+    <div class="body"><p><img src="http://pulse.ncpolicywatch.org/wp-content/uploads/2009/02/numbers.gif" width="50%" align="right"></p>
 
-<iframe src="//player.vimeo.com/video/70089044" width="600" height="337" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p>I was recently working on a project that required me to display large numbers to the user (in the hundreds of thousands or millions). No one wants to read a long string of zeros, trying to figure out if the number is 100000000 or 10000000. I figured someone must have already written a simple script to perform this exact operation but after a bit of searching, I came up empty. So I decided to write my own script and here I am sharing it with you. (The full code can be found as <a href="https://gist.github.com/cmonaghan/8499612">a gist</a> on Github).</p>
 
+<p>The goal is to convert numbers like so:</p>
 
+<pre><code>200000 --&gt; "200k"
+1200000 --&gt; "1.2M"
+54100000000 --&gt; "54.1B"
+</code></pre>
 
+<p>The first step is to determine how many digits the number has. To do this, we convert the number to a string. Before doing this however, we will want to round the input to an integer first because we don&rsquo;t want a number like 150.064 to throw us off with 6 digits.</p>
 
-<iframe src="//player.vimeo.com/video/70663871" width="600" height="337" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<pre><code>// convert input number to string and remove anything after the decimal
+var numberString = Math.floor(number).toString();
 
+// find digits length
+var digitsLength = numberString.length;
+</code></pre>
 
-<p><img src="http://farm4.staticflickr.com/3745/9254556280_10cbcba539_k.jpg" width="2048"></p>
+<p>Next we want to trim our number down based on how many digits it contains. A number that has 6 digits is in the thousands, and therefore we would want to trim off the last 3 digits and add a &lsquo;k&rsquo; for thousands. A number that has 7 digits is in the millions, and therefore we would want to trim off the last 6 digits and add an &rsquo;M' for millions. I&rsquo;ve performed this task with a simple if/else statement. A switch statement could also work well here, but I prefer the if/else simply because there&rsquo;s less of a chance for error. When using switch statements, you can easily miss a &lsquo;break&rsquo; or a &lsquo;default&rsquo;, causing your code not to work as you expect.</p>
+
+<p>Below I&rsquo;m using a helper function called trimToTenths, which as you might expect, trims the number to the tenths place. We&rsquo;ll look at this helper function in a second, but for now just know that this trimToTenths function allows us to keep the tenths place in our numbers. (I think &lsquo;1.4M&rsquo; looks much better than &lsquo;1M&rsquo;).</p>
+
+<pre><code>// check length (to determine whether to convert to thousands or millions)
+if (digitsLength &lt;= 3 &amp;&amp; digitsLength !== 0) {
+  return trimToTenths( number.toString() );
+} else if (digitsLength &lt;= 6) {
+  number = number/1000;
+  return trimToTenths( number.toString() ) + 'k';
+} else if (digitsLength &lt;= 9) {
+  number = number/1000000;
+  return trimToTenths( number.toString() ) + 'M';
+} else if (digitsLength &lt;= 12) {
+  number = number/1000000000;
+  return trimToTenths( number.toString() ) + 'B';
+} else {
+  console.log('Only numbers with a string length between 1-12 digits before the decimal will be converted to a readable number.');
+  return number.toString();
+}
+</code></pre>
+
+<p>As you may have noticed the above code has an else block at the end that will run if no other conditions are met. This block will only run for numbers exceeding 12 digits. (I&rsquo;ve never really seen numbers displayed as &lsquo;1.2T&rsquo; for trillions or &lsquo;1.2Q&rsquo; for quadrillions. If your numbers are that big, then you need a different convention for displaying them.) I use a console.log instead of throwing an error because I don&rsquo;t want to interrupt the normal execution of the code, but I do want to display to the future user of this code that the number was not converted.</p>
+
+<p>Below I&rsquo;ve detailed how the helper function operates for trimming a number to the tenths place. It&rsquo;s fairly self-explanatory. The one notable point of interest is the line where roundedNum is defined. Rather than implement a lengthy function that would round numbers to the tenths place using some extension of Math.round(), I instead simply multiply the number by 10, round it to an integer, and then divide it by 10 again. This allows me to essentially round a number to the tenths place in one line of code rather than writing a whole new function.</p>
+
+<pre><code>// helper functions
+function trimToTenths(stringifiedNumber) {
+  var index = stringifiedNumber.indexOf('.');
+  if (index === -1) {
+    return stringifiedNumber;
+  } else {
+    var slicedNum = stringifiedNumber.slice(0, index + 3); // slices an extra digit so that it can be rounded
+    var roundedNum = Math.round(Number(slicedNum) * 10) / 10; // multiply, then divide by 10 as a quick hack to round to the tenths place
+    return roundedNum.toString();
+  }
+}
+</code></pre>
+
+<p>And don&rsquo;t forget to do some error handling at the beginning of the function to avoid any odd behavior you minght encounter. For this I simply check to make sure the number passed to the function is either a number or can be cast to a number. If if fails this test, I throw an actual error because something unexpected occurred and needs to be remedied.</p>
+
+<pre><code>// throw error for any parameter input that is not a number and cannot be converted into a number
+if (Number(number).toString() === 'NaN') {
+  throw 'Error. The readifyNumbers input parameter must be a number.';
+}
+</code></pre>
+
+<p>My hope is that this snippet of code can help you solve a simple issue without having to duplicate work by writing a similar script from scratch. If you have any recommended optimizations, please write a comment!</p>
 </div>
     <!-- <div class="breaker"></div> -->
     <div class="breaker"></div>
     <!-- <info class="after">
-<div class="fb-like" data-href="http://rsms.me/2013/07/09/dbx2013.html" data-send="false" data-width="550" data-show-faces="false" data-font="arial"></div>
+<div class="fb-like" data-href="http://rsms.me/2014/01/15/readified-numbers.html" data-send="false" data-width="550" data-show-faces="false" data-font="arial"></div>
     </info> -->
 
   
@@ -181,7 +240,7 @@ check();
     
     <!--div class="content sub">
       <h2 id="comments">Comments</h2>
-      <div class="fb-comments" data-href="http://rsms.me/2013/07/09/dbx2013.html" data-num-posts="" data-width="550" data-font="arial"></div>
+      <div class="fb-comments" data-href="http://rsms.me/2014/01/15/readified-numbers.html" data-num-posts="" data-width="550" data-font="arial"></div>
     </div-->
     
 
