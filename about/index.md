@@ -1,12 +1,12 @@
 ---
 layout: page
 fb_comments: 3
-title: About
+title: About me
 ---
 
-<img src="/res/christian-profile.jpg" width="256" align="right">
+<img src="/res/christian-profile.png" width="256" align="right">
 
-My name is Christian Monaghan. I'm a web developer living in San Francisco. I have a passion for building things.
+My name is Christian Monaghan. I'm a web developer living in San Francisco with a passion for building things.
 
 I work for a visionary new software engineering school called [HackReactor](http://www.hackreactor.com/).
 
