@@ -1,5 +1,5 @@
 var HOSTNAME = 'blog.hunch.se'
-var DST_DIR = '/Users/rasmus/blog/_posts'
+var DST_DIR = '/Users/codelikeaboss/blog/_posts'
 var POST_LAYOUT = 'post'
 var DRY_RUN = false
 var TAGS_FILTER = function (tag) { return true; }
@@ -70,11 +70,11 @@ function import_posts(offset, final_callback) {
     final_callback = offset;
     offset = 0;
   }
-  
+
   var args = Array.prototype.slice.call(arguments)
   var callee = arguments.callee
   var self = this;
-  
+
   var path = '/api/read/json?filter=none&num=10&start='+(offset || '0')
   console.error('Requesting %s', path)
   var request = tumblr.request('GET', path, {'Host': HOSTNAME})
