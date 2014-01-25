@@ -17,8 +17,8 @@
 }
 
 @font-face {
-  font-family: ruthie;
-  src: url('../fonts/ruthie/Ruthie-Regular-OTF.otf');
+  font-family: HarabaraHand;
+  src: url('../fonts/HarabaraHand/HarabaraHand.ttf');
 }
 
 /* Base */
@@ -94,8 +94,8 @@ header {
   }
     header h1 a {
       display:inline-block;
-      font-family: ruthie;
-      font-size: 1.7em;
+      font-family: HarabaraHand;
+      font-size: 1.2em;
       -webkit-transform: translate3d(0,0,0);
       -webkit-transition: 160ms -webkit-transform ease-out;
     }
@@ -1400,6 +1400,10 @@ footer {
   }
   html.ipad { zoom:70%; }
 }*/
+
+body > header > h1.logo {
+  -webkit-transform: rotate(-3deg);
+}
 
 body > header > h1.logo > a:hover {
   text-decoration: none;
