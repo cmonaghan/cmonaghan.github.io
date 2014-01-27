@@ -1,6 +1,6 @@
 ---
 title: "SeedChange"
-description: "I recently finished working on a project to launch AngelPM, an angel investor platform for SeedChange customers. SeedChange needed a tool for customers to track their portfolio of startup investments, along with a central location for deal documents and a dashboard to see a snapshot view of where money was invested. I've included some screenshots to show how we went about the project."
+description: "I recently finished working on a project to launch AngelPM, an angel investor platform. Our client needed a tool for customers to track their portfolio of startup investments, along with a central location for deal documents and a dashboard to see a snapshot view of where money was invested. I've included some screenshots to show how we went about the project."
 layout: post
 tags: test
 category: languages
