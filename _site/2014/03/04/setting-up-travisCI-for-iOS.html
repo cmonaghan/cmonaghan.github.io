@@ -2,7 +2,7 @@
 <html lang="en" prefix="og: http://ogp.me/ns#">
   <head>
     <meta charset="utf-8">
-    <title>Code = :) &mdash; Christian Monaghan</title>
+    <title>Setting Up Travis CI for iOS &mdash; Christian Monaghan</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,23 +21,21 @@
     <meta property="fb:admins" content="728642302">
     <meta property="fb:app_id" content="38027689216">
     
-    <meta property="og:title" content="Code = :)">
+    <meta property="og:title" content="Setting Up Travis CI for iOS">
       
-      <meta name="description" content="Code = :) --> (function() { var qs = document.location.search; var current_etag = qs.match(/etag=("?[a-zA-Z0-9_-]+)/); if (current_etag !== null) { current_etag = current_etag[1]; } var scrolly...">
-      <meta name="og:description" content="Code = :) --> (function() { var qs = document.location.search; var current_etag = qs.match(/etag=("?[a-zA-Z0-9_-]+)/); if (current_etag !== null) { current_etag = current_etag[1]; } var scrolly...">
+      <meta name="description" content="I recently moved our iOS applications's continuous integration server from Jenkins to TravisCI. I have experience setting up Node.js projects, and those can be configured and auto-deploying to Heroku in under an hour. I knew iOS would be trickier since it would require a build step, and since Apple has some additional required credentials and certifications, but I completely underestimated how tricky it would be to set up an iOS application for continuous integration and auto-deploy it to TestFlight.">
+      <meta name="og:description" content="I recently moved our iOS applications's continuous integration server from Jenkins to TravisCI. I have experience setting up Node.js projects, and those can be configured and auto-deploying to Heroku in under an hour. I knew iOS would be trickier since it would require a build step, and since Apple has some additional required credentials and certifications, but I completely underestimated how tricky it would be to set up an iOS application for continuous integration and auto-deploy it to TestFlight.">
       
     
     
     
-    <meta property="og:image" content="/res/calm-water-bw.png">
     
-    
-    <meta property="og:url" content="http://rsms.me/2014/02/28/title-photo.html">
+    <meta property="og:url" content="http://rsms.me/2014/03/04/setting-up-travisCI-for-iOS.html">
     <meta property="og:site_name" content="rsms.me">
     <meta property="og:type" content="article">
     <meta property="og:locale" content="en_GB" />
     
-    <meta property="article:published_time" content="2014-02-28">
+    <meta property="article:published_time" content="2014-03-04">
     
     
     <script>
@@ -109,16 +107,54 @@
       </ul>
     </header>
     <!--div class="wrapper content"-->
-      <div class="content photo-post">
+      <div class="content">
   <div class="post single">
     
-    <div class="body"><p><img src="/res/calm-water-bw.png" alt="" />
-Code = :)</p>
+    <h1>Setting Up Travis CI for iOS</h1>
+    <info datetime="2014-03-04">
+      Mar 04, 2014
+    </info>
+    
+    <div class="body"><p><img src="/post_resources/2014-setting-up-travisCI-for-iOS/travis-mascot-200px.png" width="35%" align="right"></p>
+
+<p>I recently moved our iOS applications&rsquo;s continuous integration server from Jenkins to TravisCI. I have experience setting up Node.js projects, and those can be configured and auto-deploying to Heroku in under an hour. I knew iOS would be trickier since it would require a build step, and since Apple has some additional required credentials and certifications, but I completely underestimated how tricky it would be to set up an iOS application for continuous integration and auto-deploy it to TestFlight. Below is just a taste of some of the gotcha&rsquo;s I ran into.</p>
+
+<h4>Gotchas</h4>
+
+<ul>
+<li>where to find app name, developer name, profile UUID number</li>
+<li>where to find provisioning profile</li>
+<li>how to export developer identity</li>
+<li>how to find TestFlight team token</li>
+<li>how to find TestFlight upload API</li>
+<li>how to encrypt passwords (what to expect in <code>.travis.yml</code>)</li>
+<li><code>chmod +x</code> in <code>before_install</code></li>
+<li>how to test the deploy scripts from you command line before moving them to Travis</li>
+<li>add <code>!scripts/travis/profile</code> to <code>.gitignore</code> (if profile is currently listed in <code>.gitignore</code>)</li>
+<li><code>testflight.sh</code> files found online don&rsquo;t work properly</li>
+<li>exporting the scheme from xcode</li>
+</ul>
+
+
+<h2>Resources:</h2>
+
+<p>(in order of usefulness)</p>
+
+<ul>
+<li><a href="http://www.objc.io/issue-6/travis-ci.html">Travis CI for iOS</a> - This is the holy grail for information on integrating iOS with TravisCI and TestFlight</li>
+<li><a href="https://gist.github.com/johanneswuerbach/5559514">johanneswuerbach&rsquo;s gist</a> - 3 bash scripts and some limited information on how to set up iOS with Travis</li>
+<li><a href="https://gist.github.com/davidjrice/7556250">davidjrice&rsquo;s gist</a> - same 3 scripts as johanneswuerbach, but with some modifications</li>
+<li><a href="https://github.com/OneBusAway/onebusaway-iphone/wiki/Continuous-Integration-with-Travis-CI-and-TestFlight">OneBusAway wiki</a> - a lot of good info on how to perform some of the specific steps such as exporting your developer identity and provisioning profile</li>
+<li><a href="https://www.testflightapp.com/api/doc/">TestFlight docs</a> - how to upload a build to TestFlight from the command line</li>
+<li><a href="http://docs.travis-ci.com/user/encryption-keys/">Travis docs: encryption keys</a> - useful documentation on how to encrypt your variables</li>
+<li><a href="http://docs.travis-ci.com/user/build-configuration/#Secure-environment-variables">Travis docs: secure environment variables</a> - useful docs, though I initially missed the bit that says &ldquo;secure env variables aren&rsquo;t available for pull requests from forks&rdquo;, which made them unusable for my application</li>
+</ul>
+
 </div>
     <!-- <div class="breaker"></div> -->
     <div class="breaker"></div>
     <!-- <info class="after">
-<div class="fb-like" data-href="http://rsms.me/2014/02/28/title-photo.html" data-send="false" data-width="550" data-show-faces="false" data-font="arial"></div>
+<div class="fb-like" data-href="http://rsms.me/2014/03/04/setting-up-travisCI-for-iOS.html" data-send="false" data-width="550" data-show-faces="false" data-font="arial"></div>
     </info> -->
 
   
@@ -171,7 +207,7 @@ check();
     
     <!--div class="content sub">
       <h2 id="comments">Comments</h2>
-      <div class="fb-comments" data-href="http://rsms.me/2014/02/28/title-photo.html" data-num-posts="" data-width="550" data-font="arial"></div>
+      <div class="fb-comments" data-href="http://rsms.me/2014/03/04/setting-up-travisCI-for-iOS.html" data-num-posts="" data-width="550" data-font="arial"></div>
     </div-->
     
 
