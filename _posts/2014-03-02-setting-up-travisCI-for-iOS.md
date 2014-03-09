@@ -1,6 +1,6 @@
 ---
 title: "Setting Up Travis CI for iOS"
-description: "I recently moved our iOS applications's continuous integration server from Jenkins to TravisCI. I have experience setting up Node.js projects, and those can be configured and auto-deploying to Heroku in under an hour. I knew iOS would be trickier since it would require a build step, and since Apple has some additional required credentials and certifications, but I completely underestimated how tricky it would be to set up an iOS application for continuous integration and auto-deploy it to TestFlight."
+description: "I recently moved our iOS applications's continuous integration server from Jenkins to TravisCI. I have experience setting up Node.js projects, and those can be configured and auto-deploying to Heroku in under an hour. I knew iOS would be trickier since it would require a build step, and since Apple has some additional required credentials and certifications, but I completely underestimated how tricky it would be to set up an iOS application for continuous integration and auto-deploy to TestFlight."
 layout: post
 tags: programming
 category: iOS
@@ -9,7 +9,7 @@ comments: yes
 
 <img src="/post_resources/2014-setting-up-travisCI-for-iOS/travis-mascot-200px.png" width="35%" align="right">
 
-I recently moved our iOS applications's continuous integration server from Jenkins to TravisCI. I have experience setting up Node.js projects, and those can be configured and auto-deploying to Heroku in under an hour. I knew iOS would be trickier since it would require a build step, and since Apple has some additional required credentials and certifications, but I completely underestimated how tricky it would be to set up an iOS application for continuous integration and auto-deploy it to TestFlight. Below is just a taste of some of the gotcha's I ran into.
+I recently moved our iOS applications's continuous integration server from Jenkins to TravisCI. I have experience setting up Node.js projects, and those can be configured and auto-deploying to Heroku in under an hour. I knew iOS would be trickier since it would require a build step, and since Apple has some additional required credentials and certifications, but I completely underestimated how tricky it would be to set up an iOS application for continuous integration and auto-deploy to TestFlight. Below is just a taste of some of the gotcha's I ran into.
 
 #### Gotchas
 
