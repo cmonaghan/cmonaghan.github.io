@@ -13,7 +13,7 @@ tumblr_url: http://codelikeaboss.tumblr.com/post/65442123936/bootcamp-advice-16
 ---
 
 
-Here is a transcript of the advice I received from a Dev Bootcamp Chicago alum. This email exchange took place in August 2013. For anonymity, I’ll call the student ‘John’.
+<img src="/post_resources/tumblr-images/its-a-trap.jpg" width="60%" align="right">Here is a transcript of the advice I received from a Dev Bootcamp Chicago alum. This email exchange took place in August 2013. For anonymity, I’ll call the student ‘John’.
 
 My Email:
 Hey John,Thanks for your response. I’m unavailable the next two evenings, but since I only have 3 short questions, maybe I can just ask you via email:1) What is your opinion of the overall quality of the program?2) How difficult was it to find a job upon graduating?3) If you had to choose, would you do Dev Bootcamp all over again?Thanks for your help and I appreciate your time!Best,Christian
