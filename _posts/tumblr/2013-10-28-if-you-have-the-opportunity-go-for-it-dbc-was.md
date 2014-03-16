@@ -11,4 +11,6 @@ tags:
 - ruby on rails
 tumblr_url: http://codelikeaboss.tumblr.com/post/65359978782/if-you-have-the-opportunity-go-for-it-dbc-was
 ---
-If you have the opportunity, go for it. DBC was one of the best decisions I’ve ever made.—Dev Bootcamp alum
+> If you have the opportunity, go for it. DBC was one of the best decisions I’ve ever made.
+
+—Dev Bootcamp alum

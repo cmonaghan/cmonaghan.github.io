@@ -11,4 +11,7 @@ tags:
 - coding
 tumblr_url: http://codelikeaboss.tumblr.com/post/64978387948/i-wish-i-could-do-hack-reactor-all-year
 ---
-I wish I could do [Hack Reactor] all year.—recently graduated Hack Reactor student
+
+> I wish I could do [Hack Reactor] all year.
+
+—recently graduated Hack Reactor student

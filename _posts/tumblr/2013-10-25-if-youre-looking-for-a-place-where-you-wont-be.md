@@ -12,4 +12,7 @@ tags:
 - coding bootcamps
 tumblr_url: http://codelikeaboss.tumblr.com/post/65067830580/if-youre-looking-for-a-place-where-you-wont-be
 ---
-If you’re looking for a place where you won’t be on your own working through learning to code and enjoy being around people who are motivated and excited Hack Reactor is the place for you.—Hack Reactor alum
+
+> If you’re looking for a place where you won’t be on your own working through learning to code and enjoy being around people who are motivated and excited Hack Reactor is the place for you.
+
+—Hack Reactor alum

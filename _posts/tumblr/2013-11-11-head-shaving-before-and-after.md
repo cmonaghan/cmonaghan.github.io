@@ -1,7 +1,10 @@
 ---
 layout: post
-title: Head-shaving —- before and after.
+title: Head-shaving — before and after.
 date: '2013-11-11T07:45:02-08:00'
-tags: 
+tags:
 tumblr_url: http://codelikeaboss.tumblr.com/post/66680936787/head-shaving-before-and-after
 ---
+
+<img src="/post_resources/tumblr-images/headshaving-before.jpg" width="100%" align="left">
+<img src="/post_resources/tumblr-images/headshaving-after.jpg" width="100%" align="right">

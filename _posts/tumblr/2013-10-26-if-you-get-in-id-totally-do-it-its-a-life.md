@@ -9,4 +9,7 @@ tags:
 - javascript
 tumblr_url: http://codelikeaboss.tumblr.com/post/65162467460/if-you-get-in-id-totally-do-it-its-a-life
 ---
-If you get in, I’d totally do it. It’s a life changer.—Hack Reactor alum
+
+> If you get in, I’d totally do it. It’s a life changer.
+
+—Hack Reactor alum
