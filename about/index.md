@@ -4,7 +4,7 @@ fb_comments: 3
 title: About me
 ---
 
-<img src="/res/christian-profile.png" width="256" align="right">
+<img src="/res/headshot1-full.png" width="256" align="right">
 
 My name is Christian Monaghan. I'm a web developer living in San Francisco with a passion for building things.
 
