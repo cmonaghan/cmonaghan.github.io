@@ -6,9 +6,7 @@ title: About me
 
 <img src="/res/headshot1-full.png" width="256" align="right">
 
-My name is Christian Monaghan. I'm a web developer living in San Francisco with a passion for building things.
-
-I work for a visionary new software engineering school called [HackReactor](http://www.hackreactor.com/).
+My name is Christian Monaghan. I'm a web developer living in San Francisco with a passion for building things. I'm currently working to fix [Healthcare.gov](https://www.healthcare.gov/).
 
 ## Elsewhere
 
