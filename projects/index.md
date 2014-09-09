@@ -6,6 +6,7 @@ title: Recent Projects
 
 <small>*Not in any particular order*</small>
 
+- [Healthcare.gov](https://www.healthcare.gov/) - working with a small team to rebuild a few core components of the Federally Funded Marketplace.
 - [Factor 14 Patient Dashboard](http://www.factor-14.com/smartapp/) - a patient dashboard to display blood coagulate levels and help doctors make data-driven decisions. This project is for a med device startup currently in the prestigious Rock Health incubator. Stack: Angular, D3. (private GH)
 - [MobJob](http://www.creativechannel.com/) - a web platform for large retailers to monitor store merchandise remotely. Stack: Backbone, D3, Node.js, Parse. (private GH)
 - [Giftlist](https://github.com/dannynelson/giftlist) - a mobile application where Tinder meets Pinterest. This was a two-day Launch Hackathon project. Stack: Angular, Ionic, PhoneGap, Node.js, Firebase. ([GH](https://github.com/dannynelson/giftlist))
