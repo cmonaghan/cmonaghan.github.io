@@ -8,6 +8,17 @@ title: About me
 
 My name is Christian Monaghan. I'm a web developer living in San Francisco with a passion for building things. I'm currently working to fix [Healthcare.gov](https://www.healthcare.gov/).
 
+## Articles & Talks
+
+- [Fixing Healthcare.gov: An Inside View](https://www.youtube.com/watch?v=-CYJvCK405U)
+- [Interview with Hack Reactor](http://www.hackreactor.com/blog/alum-key-engineer-on-healthcaregov-project)
+
+## In the News
+
+- [Wired - Why the New Obamacare Website Is Going to Work This Time](http://www.wired.com/2014/06/healthcare-gov-revamp/)
+- [The Atlantic - Healthcare.gov's Shot at a Making Second Impression](http://www.theatlantic.com/politics/archive/2014/11/open-enrollment-new-healthcaregov-obama-federal-health-insurance-exchange/382571/)
+- [NY Times - Healthcare.gov is given an overhaul](http://www.nytimes.com/2014/09/23/us/healthcaregov-website-is-given-overhaul.html)
+
 ## Elsewhere
 
 You can also find me on the internets:
