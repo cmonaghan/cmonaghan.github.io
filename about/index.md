@@ -15,6 +15,8 @@ My name is Christian Monaghan. I'm a web developer living in San Francisco with 
 
 ## In the News
 
+- [The Atlantic - The Secret Startup That Saved the Worst Website in America](http://www.theatlantic.com/technology/archive/2015/07/the-secret-startup-saved-healthcare-gov-the-worst-website-in-america/397784/)
+- [Fast Company - Meet Nava, A Startup That Wants To Fix The Government's Crappy Design](http://www.fastcodesign.com/3047856/innovation-by-design/meet-nava-a-startup-that-wants-to-fix-the-governments-crappy-design)
 - [Wired - Why the New Obamacare Website Is Going to Work This Time](http://www.wired.com/2014/06/healthcare-gov-revamp/)
 - [The Atlantic - Healthcare.gov's Shot at a Making Second Impression](http://www.theatlantic.com/politics/archive/2014/11/open-enrollment-new-healthcaregov-obama-federal-health-insurance-exchange/382571/)
 - [NY Times - Healthcare.gov is given an overhaul](http://www.nytimes.com/2014/09/23/us/healthcaregov-website-is-given-overhaul.html)
