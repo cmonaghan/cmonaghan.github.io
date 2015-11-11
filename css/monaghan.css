@@ -13,6 +13,8 @@
 @media (min-width: 550px) {
   .header {
     margin-top: 18rem; }
+  .section-content {
+    padding: 8rem 0; }
 }
 
 /* Larger than tablet */
@@ -21,7 +23,6 @@
   .navbar + .section-content {
     border-top-width: 0; }
   .navbar {
-    border-top-width: 0;
     display: block;
     width: 100%;
     height: 6.5rem;
