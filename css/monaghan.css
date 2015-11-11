@@ -1,7 +1,7 @@
 .container {
   max-width: 800px; }
 .header {
-  margin-top: 6rem; }
+  padding: 4rem 0; }
 .section-content {
   border-top: 1px solid #eee;
   padding: 4rem 0;
@@ -12,7 +12,8 @@
 /* Larger than phone */
 @media (min-width: 550px) {
   .header {
-    margin-top: 18rem; }
+    margin-top: 10rem;
+    padding: 8rem 0; }
   .section-content {
     padding: 8rem 0; }
 }
