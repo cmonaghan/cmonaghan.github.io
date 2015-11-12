@@ -11,15 +11,20 @@ $(function() {
   var onScroll = function() {
     if (navOffsetTop < $(window).scrollTop() && !$('body').hasClass('has-docked-nav')) {
       $('body').addClass('has-docked-nav');
-      console.log('added docked nav');
     }
     if (navOffsetTop > $(window).scrollTop() && $('body').hasClass('has-docked-nav')) {
       $('body').removeClass('has-docked-nav');
-      console.log('removed docked nav');
     }
   };
 
   $(window).on('scroll', onScroll);
   $(window).on('resize', resize);
+
+  // initialize photo grid
+  $('.grid').masonry({
+    // options
+    itemSelector: '.grid-item',
+    columnWidth: 200
+  });
 
 });

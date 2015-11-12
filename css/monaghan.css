@@ -17,6 +17,13 @@ body {
   display: none;
 }
 
+/* Photo grid */
+.grid-item { width: 200px; }
+.grid-item--width2 { width: 400px; }
+.grid-item--width3 { width: 600px; }
+
+
+
 /* Larger than phone */
 @media (min-width: 550px) {
   .header {
