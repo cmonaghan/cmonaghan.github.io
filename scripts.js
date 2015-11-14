@@ -6,7 +6,8 @@ $(function() {
     var $grid = $('.grid');
     $grid.imagesLoaded( function(){
       $grid.masonry({
-        itemSelector : '.grid-item'
+        itemSelector : '.grid-item',
+        gutterWidth: 7
       });
     });
   };

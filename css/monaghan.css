@@ -19,11 +19,10 @@ body {
 
 /* Photo grid */
 .grid-item {
-  width: 20%;
-  margin-bottom: 0px
+  width: 32%; /* less than 33% to account for gutter */
 }
-.grid-item.w2 {
-  width: 40%;
+.grid-item img {
+  width: 100%;
 }
 
 
