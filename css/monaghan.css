@@ -18,10 +18,11 @@ body {
 }
 
 /* Photo grid */
-.item {
+.grid-item {
   width: 20%;
+  margin-bottom: 0px
 }
-.item.w2 {
+.grid-item.w2 {
   width: 40%;
 }
 
