@@ -19,12 +19,10 @@ body {
 
 /* Photo grid */
 .item {
-  width: 25%;
-  height: 133px;
+  width: 20%;
 }
 .item.w2 {
-  width: 50%;
-  height: 266px;
+  width: 40%;
 }
 
 
