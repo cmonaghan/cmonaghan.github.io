@@ -18,9 +18,14 @@ body {
 }
 
 /* Photo grid */
-.grid-item { width: 200px; }
-.grid-item--width2 { width: 400px; }
-.grid-item--width3 { width: 600px; }
+.item {
+  width: 25%;
+  height: 133px;
+}
+.item.w2 {
+  width: 50%;
+  height: 266px;
+}
 
 
 

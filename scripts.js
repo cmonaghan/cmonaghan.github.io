@@ -21,10 +21,11 @@ $(function() {
   $(window).on('resize', resize);
 
   // initialize photo grid
-  $('.grid').masonry({
-    // options
-    itemSelector: '.grid-item',
-    columnWidth: 200
+  var $container = $('#container');
+  $container.packery({
+    itemSelector: '.item',
+    gutter: 0,
+    // percentPosition: true
   });
 
 });
