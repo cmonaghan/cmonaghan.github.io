@@ -28,6 +28,8 @@ $(function() {
     }
   };
 
+  // TODO: load photos dynamically
+
   $(window).on('scroll', onScroll);
   $(window).on('resize', resize);
   initPhotoGrid();
