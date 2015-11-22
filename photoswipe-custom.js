@@ -138,4 +138,5 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 };
 
 // execute above function
-initPhotoSwipeFromDOM('.my-gallery');
+initPhotoSwipeFromDOM('.photo-gallery');
+initPhotoSwipeFromDOM('.art-gallery');
