@@ -27,6 +27,8 @@
   <!-- Custom Javascript -->
   <script src="scripts.js"></script>
 
+  <!-- TODO: add browserify -->
+
 </head>
 <body>
 
@@ -77,20 +79,16 @@
       <div class="column">
         <h1>Photography</h1>
         <div class="grid my-gallery">
-          <!-- <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery"> -->
-              <figure class="grid-item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                  <a href="photography/lime_salt.png" itemprop="contentUrl" data-size="600x400">
-                      <img src="photography/lime_salt.png" itemprop="thumbnail" alt="Image description" />
-                  </a>
-                  <!-- <figcaption itemprop="caption description">lime salt</figcaption> -->
-              </figure>
-              <figure class="grid-item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                  <a href="photography/dc_misc/dice.png" itemprop="contentUrl" data-size="600x400">
-                      <img src="photography/dc_misc/dice.png" itemprop="thumbnail" alt="Image description" />
-                  </a>
-                  <!-- <figcaption itemprop="caption description">dice</figcaption> -->
-              </figure>
-          <!-- </div> -->
+          <div class="grid-item">
+            <a href="photography/lime_salt.png" data-size="1000x700">
+              <img src="photography/lime_salt.png" alt="Image description" />
+            </a>
+          </div>
+          <div class="grid-item">
+            <a href="photography/dc_misc/dice.png" data-size="1000x700">
+              <img src="photography/dc_misc/dice.png" alt="Image description" />
+            </a>
+          </div>
 
 <!--           <div class="grid-item"><img src="photography/lime_salt.png"></div>
           <div class="grid-item"><img src="photography/dc_misc/dice.png"></div>
