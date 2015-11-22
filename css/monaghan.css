@@ -3,7 +3,7 @@ body {
   color: #353535;
 }
 .container {
-  max-width: 800px;
+  max-width: 1000px;
 }
 .header {
   padding: 4rem 0;
@@ -19,7 +19,7 @@ body {
 
 /* Photo grid */
 .grid-item {
-  width: 32%; /* less than 33% to account for gutter */
+  width: 32.5%; /* less than 33% to account for gutter */
 }
 .grid-item img {
   width: 100%;
