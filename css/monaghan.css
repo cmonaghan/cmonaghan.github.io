@@ -2,6 +2,13 @@ body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #353535;
 }
+a {
+  color: #ADADAD;
+  text-decoration: none;
+}
+a:hover {
+  color: #353535;
+}
 .container {
   max-width: 1000px;
 }
