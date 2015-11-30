@@ -9,6 +9,10 @@ a {
 a:hover {
   color: #353535;
 }
+li {
+  list-style:none;
+  margin-left: 1rem;
+}
 .container {
   max-width: 1000px;
 }
