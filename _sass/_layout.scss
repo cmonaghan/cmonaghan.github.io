@@ -1,0 +1,23 @@
+.container {
+  margin: 0 auto;
+  max-width: 700px;
+  width: 80%;
+}
+
+main,
+footer {
+  margin: 0 auto;
+  max-width: 700px;
+  width: 80%;
+}
+
+footer {
+  font-family: $palatino;
+  padding: 2rem 0;
+  text-align: center;
+
+  span {
+    color: $default-color;
+    font-size: .8rem;
+  }
+}
