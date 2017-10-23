@@ -6,7 +6,7 @@ title:          Musings
 paginate:       5 # number of posts to show on main blog page before paginate
 paginate_path:  "/blog/:num/"
 baseurl:        ""
-url:            "http://christianmonaghan.com"
+url:            "https://www.christianmonaghan.com"
 
 # number of teaser posts to show on the landing page
 teaser_count:   3
@@ -22,7 +22,7 @@ markdown:       kramdown
 # About
 author:
   name:         Christian Monaghan
-  url:          http://christianmonaghan.com
+  url:          https://www.christianmonaghan.com
   email:        test@test.com
 
 # Custom vars
