@@ -2,7 +2,7 @@
 permalink:      /:year-:month-:day/:title
 
 # Setup
-title:          Musings
+title:          Christian Monaghan
 paginate:       5 # number of posts to show on main blog page before paginate
 paginate_path:  "/blog/:num/"
 baseurl:        ""
@@ -23,7 +23,7 @@ markdown:       kramdown
 author:
   name:         Christian Monaghan
   url:          https://www.christianmonaghan.com
-  email:        test@test.com
+  # email:        test@test.com
 
 # Custom vars
 version:        3.4.1
