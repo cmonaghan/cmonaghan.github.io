@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  "First Post"
-author: "Christian"
+title:  First Post
 ---
 
 This is my first post. It's not supposed to be good. It's supposed to bad. It's supposed to get me writing.

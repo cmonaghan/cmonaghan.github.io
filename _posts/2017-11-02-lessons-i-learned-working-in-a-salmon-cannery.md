@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  "Lessons I Learned Working in a Salmon Cannery"
-author: "Christian"
+title:  Lessons I Learned Working in a Salmon Cannery
 ---
 
 I spent my summer after college working at a salmon cannery in a remote part of Alaska. I worked as an unskilled laborer at minimum wage, 16 hours a day, 7 days a week. Every moment was spent either working or sleeping; personal time didn't exist. Working in a cannery was neither fun nor enjoyable, but it was a grounding experience and taught me some unexpected things.
