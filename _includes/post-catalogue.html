@@ -9,10 +9,10 @@
 
   <div class="pagination">
     {% if paginator.previous_page %}
-      <a class="button u-pull-left" href="{{ paginator.previous_page_path | prepend: site.url }}">Prev</a>
+      <a class="button u-pull-left" href="{{ paginator.previous_page_path | prepend: site.url }}">Newer</a>
     {% endif %}
     {% if paginator.next_page %}
-      <a class="button u-pull-right" href="{{ paginator.next_page_path | prepend: site.url }}">Next</a>
+      <a class="button u-pull-right" href="{{ paginator.next_page_path | prepend: site.url }}">Older</a>
     {% endif %}
 
   </div>
