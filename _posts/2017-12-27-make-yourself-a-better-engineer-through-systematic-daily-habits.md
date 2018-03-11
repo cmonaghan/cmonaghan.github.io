@@ -132,7 +132,7 @@ It doesn't have to be elaborate or prescriptive---a few bullet points or diagram
 
 For larger problems, it's always worth the time to write out a detailed page or two to spec out the solution.
 
-#### Constantly re-evalutate and modify your habits
+#### Constantly re-evaluate and modify your habits
 
 Life is fluid.
 As your projects change, your life changes, your role changes, you'll need to modify and re-adapt yourself and your habits.
