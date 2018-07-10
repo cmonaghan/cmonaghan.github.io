@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/cmonaghan
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://christianmonaghan.com
+  * I am cmonaghan (https://keybase.io/cmonaghan) on keybase.
+  * I have a public key ASB-hLgi902dRvjEanMT6IfZHdlDNHriY4RcqtcndvFcOwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01207e84b822f74d9d46f8c46a7313e887d91dd943347ae263845caad72776f15c3b0a",
+      "host": "keybase.io",
+      "kid": "01207e84b822f74d9d46f8c46a7313e887d91dd943347ae263845caad72776f15c3b0a",
+      "uid": "6d91bdce20b554986da3f41c8594f119",
+      "username": "cmonaghan"
+    },
+    "merkle_root": {
+      "ctime": 1531244964,
+      "hash": "473519e9afdd2e1b5d1001fd565f166d2836543c8bf76b54d8c64a4e7fa2e8e1a25034e85022c9ea94550f1d6ce94cc16dc965bd09317763ebd53aeccc89cc6e",
+      "hash_meta": "4a3675af84801659abee5211ed11acc6ca22ac8e41bb35522f4acf532ff24b74",
+      "seqno": 3226669
+    },
+    "service": {
+      "entropy": "60AuAWR6JJbXjJXGjk3JBdka",
+      "hostname": "christianmonaghan.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.1.2"
+  },
+  "ctime": 1531244972,
+  "expire_in": 504576000,
+  "prev": "2d7f185a5de3c77a3dbbe71567015168717451a6367a276e9d66a6ba8832915b",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgfoS4IvdNnUb4xGpzE+iH2R3ZQzR64mOEXKrXJ3bxXDsKp3BheWxvYWTESpcCBsQgLX8YWl3jx3o9u+cVZwFRaHF0UaY2eidunWamuogykVvEIGd0B6B5fC4dCnKQKwDMXwVkPF/5kxe75bMlSQ43VmX6AgHCo3NpZ8RA4l97a1yacc/tPehLTlxlUTC+YOKmlivGctiZhYya4NjmRLqzFtg6pFDxBLZdH7ZhQITdu7jYmxA0q7T6plLtAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIO90zu/+V0BkWkKlpq+2k5FLFyhFVqcKwq9/8d8+25S7o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/cmonaghan
+
+==================================================================
