@@ -2,7 +2,7 @@
   <h1>Writing</h1>
 
   <div class="catalogue">
-    {% for post in site.posts limit: site.teaser_count %}
+    {% for post in site.writing limit: site.teaser_count %}
       {% include teaser-post.html %}
     {% endfor %}
   </div>

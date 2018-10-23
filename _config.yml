@@ -8,6 +8,11 @@ paginate_path:  "/writing/:num/"
 baseurl:        ""
 url:            "https://www.christianmonaghan.com"
 
+# Collections
+collections:
+  - writing
+  - speaking
+
 # number of teaser posts to show on the landing page
 teaser_count:   3
 
