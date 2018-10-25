@@ -3,8 +3,8 @@ layout: landing
 title: Home
 ---
 
-{% include post-landing.html %}
+{% include writing-teasers.html %}
 
-{% include speaking.html %}
+{% include speaking-teasers.html %}
 
 {% include about.html %}
