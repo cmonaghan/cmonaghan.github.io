@@ -1,5 +1,13 @@
-<div class="section-content" id="writing">
-  <h1>Writing</h1>
+---
+layout: main
+---
+
+{% if page.autopages %}
+  {% assign title = page.autopages.display_name %}
+{% endif %}
+
+<div class="section-content" id="{{ title }}">
+  <h1>{{ title | capitalize }}</h1>
 
   <div class="catalogue">
     {% for post in paginator.posts %}
