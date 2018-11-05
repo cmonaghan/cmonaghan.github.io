@@ -5,6 +5,6 @@ title: Home
 
 {% include post-landing.html %}
 
-{% include essays.html %}
+{% include speaking.html %}
 
 {% include about.html %}
