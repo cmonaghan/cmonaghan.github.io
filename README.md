@@ -1,6 +1,6 @@
-# This is Christian's personal site
+# This is my personal site
 
-This is the 3rd iteration of my site. It's built using Jekyll. Its design was inspired by the Jekyll theme [Tale](https://github.com/chesterhow/tale), the lightweight CSS framework [skeleton](http://getskeleton.com/).
+This is the 3rd iteration of my site. It's built using Jekyll. Its design was inspired by the Jekyll theme [Tale](https://github.com/chesterhow/tale), and the lightweight CSS framework [skeleton](http://getskeleton.com/).
 
 
 ## Usage
