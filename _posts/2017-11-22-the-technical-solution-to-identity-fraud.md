@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Technical Solution to Identity Fraud"
+title:  "The Solution to Identity Fraud"
 ---
 
 Identity fraud [severely damages lives](https://www.bloomberg.com/news/articles/2017-09-13/my-three-years-in-identity-theft-hell).
