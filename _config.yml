@@ -1,0 +1,35 @@
+# Permalinks
+permalink:      /:year-:month-:day/:title
+
+# Setup
+title:          Christian Monaghan
+paginate:       5 # number of posts to show on main blog page before paginate
+paginate_path:  "/writing/:num/"
+baseurl:        ""
+url:            "https://www.christianmonaghan.com"
+
+# number of teaser posts to show on the landing page
+teaser_count:   3
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        :compressed
+
+# Build settings
+markdown:       kramdown
+
+# About
+author:
+  name:         Christian Monaghan
+  url:          https://www.christianmonaghan.com
+  # email:        test@test.com
+
+# Custom vars
+version:        3.4.1
+github:
+  repo:         https://github.com/cmonaghan/cmonaghan.github.io
+
+# Plugins / Gems
+plugins:
+  - jekyll-paginate
