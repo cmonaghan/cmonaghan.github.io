@@ -24,7 +24,11 @@ $ jekyll serve --drafts --watch
 Go to http://localhost:4000.
 
 
-## SSL Details
+## Cloudflare Pages
+
+This site's domain and deployment is setup using Cloudflare Pages.
+
+## SSL Details (deprecated)
 
 As of September 2017, GitHub Pages doesn't support SSL on custom domains out of the box. However, I've enabled SSL on https://www.christianmonaghan.com by using an SSL certificate from [AWS Certificate Manager](https://aws.amazon.com/certificate-manager/) and then [directing traffic first through AWS CloudFront](http://strd6.com/2016/02/github-pages-custom-domain-with-ssltls/). The AWS parts are managed through my root AWS account.
 
