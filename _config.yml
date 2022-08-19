@@ -2,7 +2,7 @@
 permalink:      /:year-:month-:day/:title
 
 # Setup
-title:          Woolgathering
+title:          Woolgathering | Christian Monaghan
 paginate:       5 # number of posts to show on main blog page before paginate
 paginate_path:  "/writing/:num/"
 baseurl:        ""
