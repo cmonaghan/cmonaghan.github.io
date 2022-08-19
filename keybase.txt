@@ -4,9 +4,9 @@ https://keybase.io/cmonaghan
 
 I hereby claim:
 
-  * I am an admin of http://christianmonaghan.com
+  * I am an admin of https://woolgathering.io
   * I am cmonaghan (https://keybase.io/cmonaghan) on keybase.
-  * I have a public key ASB-hLgi902dRvjEanMT6IfZHdlDNHriY4RcqtcndvFcOwo
+  * I have a public key with fingerprint 8E53 B859 63A7 0CD3 74D0  2FE6 8643 443B F468 D9DB
 
 To do so, I am signing this object:
 
@@ -14,39 +14,58 @@ To do so, I am signing this object:
   "body": {
     "key": {
       "eldest_kid": "01207e84b822f74d9d46f8c46a7313e887d91dd943347ae263845caad72776f15c3b0a",
+      "fingerprint": "8e53b85963a70cd374d02fe68643443bf468d9db",
       "host": "keybase.io",
-      "kid": "01207e84b822f74d9d46f8c46a7313e887d91dd943347ae263845caad72776f15c3b0a",
+      "key_id": "8643443bf468d9db",
+      "kid": "0101b388381a151279bef04f3e70959a29b8b1fcb3ab9db0dfd1939281e4d66f0bd10a",
       "uid": "6d91bdce20b554986da3f41c8594f119",
       "username": "cmonaghan"
     },
-    "merkle_root": {
-      "ctime": 1531244964,
-      "hash": "473519e9afdd2e1b5d1001fd565f166d2836543c8bf76b54d8c64a4e7fa2e8e1a25034e85022c9ea94550f1d6ce94cc16dc965bd09317763ebd53aeccc89cc6e",
-      "hash_meta": "4a3675af84801659abee5211ed11acc6ca22ac8e41bb35522f4acf532ff24b74",
-      "seqno": 3226669
-    },
     "service": {
-      "entropy": "60AuAWR6JJbXjJXGjk3JBdka",
-      "hostname": "christianmonaghan.com",
-      "protocol": "http:"
+      "hostname": "woolgathering.io",
+      "protocol": "https:"
     },
     "type": "web_service_binding",
-    "version": 2
+    "version": 1
   },
-  "client": {
-    "name": "keybase.io go client",
-    "version": "2.1.2"
-  },
-  "ctime": 1531244972,
-  "expire_in": 504576000,
-  "prev": "2d7f185a5de3c77a3dbbe71567015168717451a6367a276e9d66a6ba8832915b",
-  "seqno": 6,
+  "ctime": 1660918028,
+  "expire_in": 157680000,
+  "prev": "a09aec88f90f7ef37c47f99414f0240251e9a65c1adb83497afd0f6c334567d7",
+  "seqno": 29,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgfoS4IvdNnUb4xGpzE+iH2R3ZQzR64mOEXKrXJ3bxXDsKp3BheWxvYWTESpcCBsQgLX8YWl3jx3o9u+cVZwFRaHF0UaY2eidunWamuogykVvEIGd0B6B5fC4dCnKQKwDMXwVkPF/5kxe75bMlSQ43VmX6AgHCo3NpZ8RA4l97a1yacc/tPehLTlxlUTC+YOKmlivGctiZhYya4NjmRLqzFtg6pFDxBLZdH7ZhQITdu7jYmxA0q7T6plLtAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIO90zu/+V0BkWkKlpq+2k5FLFyhFVqcKwq9/8d8+25S7o3RhZ80CAqd2ZXJzaW9uAQ==
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMN2AnicbVJ7UFRVHObla8PEEnKiRriWs+am99znuYs0Gbgt9BgqHYyx1vs4d3dl
+2bvuXl7CMiWKJA60AwYSZanhMJFmDk6AQ+AIDoiTg6LrEEa6Lk0MNjFCo5LbXdL/
+Ov+cOb/zfd/v+37nnFscHaGLrEhLT7lruz4SeaHni/wIIXQwtgQTFKkYM5ZguWhu
+Qw4JeVRLrl3CjBgOCJxFkBIgQcgsJXESxchQpBieJQGJIGQlDkgSR5EkxfKIYEhI
+0SLPSyzBsowMaJEUcB4zYLLdaUVul9vuVDVZiGhSgDTHkDyLixKpKeOEjBjIUCRF
+kYJMMVDrJWhEm+IJMzRzAu9Ba+2KVtMOljl7/4N/7BsHAgkhCQEPaECwnIBknJJJ
+xOIczfEEJ0AByKJA8oLGwyVZAhzJERAgSmIYGRckMOc7f06O0VIKkogIXKBpioOM
+xJMyBUQtAiUDwIWBHuR28nlIQ4t5ipO32ngn5jVgWrnALqLwZMNRHkEKFcVh5VUb
+0gZi/S+Uy62oiqg4tFubqro8xjBbLXbNwZFgeSRkEexOSSNpjALk9tgVJ2YEGlJU
+7WFlwDA4ByBOQAOGilx2N7LYwwiaZSCurXAfVKBJ8jjHIxFCmcNlFskkK1KszHEU
+oGScoHCCBojjGVoEvCRAkuJYXpZwmRG1h6YZVmKxcLQdTgUzEpzmk7dqmh671cmr
++W6Eec/2bI2JiNRFzJ8XFf5lEbpFcY//XtnpJSEv9t67155+fuXY6tVpTbS04PyX
+rzZ8nun1SC2/xO8/9xJt7jkeGjmbMtH+spiR9MRMMHC3dT3+4KOmoiUHosD8+tKk
+E+a6iV32/rZtzQtihu53RG/sKyzdMFNV0E/+bTlR82J5SeHlnZG92y4bJrd0NQ28
+YrbEHR4Av3Xrg31/rlu1q0Qt6z3aaNKPt5c2Du62pX82fXF5YWqNt1kIronSOa+f
+ifnV1v3+na6kfbkiF0z4JGcls7DiyPjxsYXMtPeptMba0Ul67GrU4tOBrG9iTw5V
+N5rXJZ9ymDrpqYEOfc7gPvBz6OaiYb/5hUy/8u3W4dvV10LHPvQd3XO1AunXrN/0
+wyni/tqLJl/RwVrfx6o/8FNHygfGPyoSCvpzMtLGy9/pjPF6j3iONbT0ThmdGSPp
+RAuT/J0ppSwxyxXpD3gufQ+/vjGaHd9d64DFvyc23Q6+ZbhQObTfsuLGG+a+Gncn
+2ZR9pjv606q42ZP98zY83L0pELtF+jH5kG5pbeXM6wk7iuY3hiamVmT7/jK9XXZA
+F1tVzzQ/1zA7iE+aUzcXxcR9VbpHv5nYu8yblWZOnPCcL31m6BCq2u57ELxz79mb
+bdWVda/F+4RbNXhJK1k32lbe/ObGnfpVyj+B7Vf8aqtj+uGTqVduzWYuU4OHVcOw
+qR2kL5245+/C/NOdA/HLC/Mu1f8LaN3Hjg==
+=tAWl
+-----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
