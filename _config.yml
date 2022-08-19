@@ -2,11 +2,11 @@
 permalink:      /:year-:month-:day/:title
 
 # Setup
-title:          Christian Monaghan
+title:          woolgathering
 paginate:       5 # number of posts to show on main blog page before paginate
 paginate_path:  "/writing/:num/"
 baseurl:        ""
-url:            "https://www.christianmonaghan.com"
+url:            "https://woolgathering.io"
 
 # number of teaser posts to show on the landing page
 teaser_count:   3
@@ -22,7 +22,7 @@ markdown:       kramdown
 # About
 author:
   name:         Christian Monaghan
-  url:          https://www.christianmonaghan.com
+  url:          https://woolgathering.io
   # email:        test@test.com
 
 # Custom vars
