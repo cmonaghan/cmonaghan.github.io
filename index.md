@@ -3,8 +3,8 @@ layout: landing
 title: Home
 ---
 
-{% include post-landing.html %}
-
 {% include projects.html %}
+
+{% include post-landing.html %}
 
 {% include about.html %}

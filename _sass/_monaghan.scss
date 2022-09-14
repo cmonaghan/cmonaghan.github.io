@@ -39,7 +39,12 @@ footer {
   float: right;
   padding: 0.5rem 0 0 2rem;
 }
-
+a.project-image {
+  color: #353535;
+}
+.project-image:hover {
+  opacity: 0.5
+}
 
 /* Larger than phone */
 @media (min-width: 550px) {
