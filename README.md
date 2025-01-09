@@ -4,21 +4,23 @@ This is the 3rd iteration of my site. It's built using Jekyll. Its design was in
 
 
 ## Usage
-### 1. Fork and Clone
-Fork this repository then clone it.
+### 1. Clone repo
+```bash
+git clone git@github.com:cmonaghan/cmonaghan.github.io.git
+```
 
 ### 2. Install dependencies
-This site uses Jekyll's built-SCSS compiler to generate CSS. You'll need to install the Jekyll gem:
 
+Install all the dependencies
 ```bash
-$ gem install jekyll
+bundle insall
 ```
 
 ### 3. Running Locally
 To test the site locally (including drafts), run this from the root directory:
 
 ```bash
-$ jekyll serve --drafts --watch
+bundle exec jekyll serve --drafts --watch
 ```
 
 Go to http://localhost:4000.
