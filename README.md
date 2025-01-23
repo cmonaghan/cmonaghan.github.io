@@ -13,7 +13,7 @@ git clone git@github.com:cmonaghan/cmonaghan.github.io.git
 
 Install all the dependencies
 ```bash
-bundle insall
+bundle install
 ```
 
 ### 3. Running Locally
