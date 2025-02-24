@@ -9,4 +9,4 @@ infra:     "AWS Lambda, DynamoDB, CloudFront, S3, Cognito, Serverless Framework"
 apis:      "Cloudinary, MixPanel, Google SSO"
 ---
 
-GoWishbone example project
+TODO

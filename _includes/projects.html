@@ -9,18 +9,18 @@
           image="/assets/gowishbone.png"
           title="GoWishbone"
         %}
-        <a href="https://cocktails.woolgathering.io/" target="_blank" class="one-third column project-image">
-          <div>
-            <img class="u-max-full-width" src="assets/2024-09-28-cocktail-apothecary-thumbnail.png">
-            <h5>Cocktail Apothecary</h5>
-          </div>
-        </a>
-        <a href="https://dg.woolgathering.io/" target="_blank" class="one-third column project-image">
-          <div>
-            <img class="u-max-full-width" src="assets/disc_golf_oracle_thumbnail.png">
-            <h5>Disc Golf Oracle</h5>
-          </div>
-        </a>
+
+        {% include project-thumbnail.html
+          url="/projects/cocktail-apothecary"
+          image="/assets/2024-09-28-cocktail-apothecary-thumbnail.png"
+          title="Cocktail Apothecary"
+        %}
+        
+        {% include project-thumbnail.html
+          url="/projects/disc-golf-oracle"
+          image="/assets/disc_golf_oracle_thumbnail.png"
+          title="Disc Golf Oracle"
+        %}
       </div>
       
       <div class="row">

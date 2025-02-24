@@ -19,11 +19,15 @@ layout: main
     <b>Infrastructure:</b> {{ page.infra }}
     <br>
     <b>Third-party services:</b> {{ page.apis }}
+    {% if page.repo_name %}
+      <br>
+      <b>Repository:</b> <a href="https://github.com/cmonaghan/{{ page.repo_name }}">cmonaghan/{{ page.repo_name }}</a>
+    {% endif %}
   </p>
   <div class="post-line"></div>
 
   {{ content }}
 
-  <a href="{{ page.link }}">Check it out</a>
+  <a class="button" href="{{ page.link }}" target="_blank">Check it out</a>
 
 </div>
