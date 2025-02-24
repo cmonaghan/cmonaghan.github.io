@@ -34,6 +34,8 @@ layout: main
 
   {{ content }}
 
-  <a class="button" href="{{ page.link }}" target="_blank">Check it out</a>
+  {% if page.link %}
+    <a class="button" href="{{ page.link }}" target="_blank">Check it out</a>
+  {% endif %}
 
 </div>

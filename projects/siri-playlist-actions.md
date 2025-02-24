@@ -9,5 +9,3 @@ infra:     "Vercel serverless, Redis"
 apis:      "Spotify, Siri (Apple Shortcuts)"
 repo_name: "siri-playlist-actions"
 ---
-
-TODO

@@ -9,5 +9,3 @@ infra:     "Vercel serverless"
 apis:      "OpenAI"
 repo_name: "ai-bartender"
 ---
-
-TODO

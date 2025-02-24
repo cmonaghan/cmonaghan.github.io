@@ -9,5 +9,3 @@ infra:     "Vercel serverless"
 apis:      "N/A"
 repo_name: "assateague-spin"
 ---
-
-TODO
