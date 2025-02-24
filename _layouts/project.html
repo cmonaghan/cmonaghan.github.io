@@ -13,12 +13,18 @@ layout: main
   <h2 class="post-title">{{ page.title }}</h2>
   <p>
     <b>Project goal:</b> {{ page.goal }}
-    <br>
-    <b>Languages:</b> {{ page.languages }}
-    <br>
-    <b>Infrastructure:</b> {{ page.infra }}
-    <br>
-    <b>Third-party services:</b> {{ page.apis }}
+    {% if page.languages %}
+      <br>
+      <b>Languages:</b> {{ page.languages }}
+    {% endif %}
+    {% if page.infra %}
+      <br>
+      <b>Infrastructure:</b> {{ page.infra }}
+    {% endif %}
+    {% if page.apis %}
+      <br>
+      <b>Third-party services:</b> {{ page.apis }}
+    {% endif %}
     {% if page.repo_name %}
       <br>
       <b>Repository:</b> <a href="https://github.com/cmonaghan/{{ page.repo_name }}">cmonaghan/{{ page.repo_name }}</a>

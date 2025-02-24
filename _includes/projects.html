@@ -24,33 +24,31 @@
       </div>
       
       <div class="row">
-        <a href="https://spotify.woolgathering.io/" target="_blank" class="one-third column project-image">
-          <div>
-            <img class="u-max-full-width" src="assets/2025-02-01-siri-spotify-thumbnail.png">
-            <h5>Siri Playlist Actions</h5>
-          </div>
-        </a>
-        <a href="https://fallacy.woolgathering.io/" target="_blank" class="one-third column project-image">
-          <div>
-            <img class="u-max-full-width" src="assets/2024-09-03-fallacy-finder-thumbnail.png">
-            <h5>Fallacy Finder</h5>
-          </div>
-        </a>
-        <a href="https://assateague-spin.woolgathering.io/" target="_blank" class="one-third column project-image">
-          <div>
-            <img class="u-max-full-width" src="assets/2024-09-10-assateague-spin-thumbnail.png">
-            <h5>Assateague Spin</h5>
-          </div>
-        </a>
+        {% include project-thumbnail.html
+          url="/projects/siri-playlist-actions"
+          image="/assets/2025-02-01-siri-spotify-thumbnail.png"
+          title="Siri Playlist Actions"
+        %}
+        
+        {% include project-thumbnail.html
+          url="/projects/fallacy-finder"
+          image="/assets/2024-09-03-fallacy-finder-thumbnail.png"
+          title="Fallacy Finder"
+        %}
+
+        {% include project-thumbnail.html
+          url="/projects/assateague-spin"
+          image="/assets/2024-09-10-assateague-spin-thumbnail.png"
+          title="Assategue Spin"
+        %}
       </div>
       
       <div class="row">
-        <a href="https://pascarelcaps.com/" target="_blank" class="one-third column project-image">
-          <div>
-            <img class="u-max-full-width" src="assets/pascarel-caps.png">
-            <h5>Pascarel Caps</h5>
-          </div>
-        </a>
+        {% include project-thumbnail.html
+          url="/projects/pascarel-caps"
+          image="/assets/pascarel-caps.png"
+          title="Pascarel Caps"
+        %}
       </div>
 
     </div>
