@@ -2,27 +2,28 @@
 layout: main
 ---
 
-<div class="project">
-  <div class="project-info">
+<div class="post">
+  <div class="post-info">
     <br>
     {% if page.date %}
-      <time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
+      <div>{{ page.date }}</div>
     {% endif %}
   </div>
 
-  <h2 class="project-title">{{ page.title }}</h2>
-  <div class="project-line"></div>
+  <h2 class="post-title">{{ page.title }}</h2>
+  <p>
+    <b>Project goal:</b> {{ page.goal }}
+    <br>
+    <b>Languages:</b> {{ page.languages }}
+    <br>
+    <b>Infrastructure:</b> {{ page.infra }}
+    <br>
+    <b>Third-party services:</b> {{ page.apis }}
+  </p>
+  <div class="post-line"></div>
 
   {{ content }}
 
+  <a href="{{ page.link }}">Check it out</a>
+
 </div>
-
-<!-- <div class="pagination">
-  {% if page.next.url %}
-    <a class="button u-pull-left" href="{{ page.next.url | prepend: site.url }}">Newer</a>
-  {% endif %}
-  {% if page.previous.url %}
-    <a class="button u-pull-right" href="{{ page.previous.url | prepend: site.url }}">Older</a>
-  {% endif %}
-
-</div> -->
