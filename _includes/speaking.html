@@ -1,0 +1,17 @@
+<div class="section-content" id="speaking">
+  <h1>Speaking</h1>
+    
+  <div class="section">
+    <div class="row">
+      {% assign sorted_speaking = site.speaking | sort: "date" | reverse %}
+      {% for speaking in sorted_speaking %}
+        {% include speaking-thumbnail.html
+          url=speaking.url
+          image=speaking.thumbnail
+          title=speaking.title
+          venue_short_name=speaking.venue_short_name
+        %}
+      {% endfor %}
+    </div>
+  </div>
+</div>

@@ -8,6 +8,12 @@ paginate_path:  "/writing/:num/"
 baseurl:        ""
 url:            "https://woolgathering.io"
 
+# Collections
+collections:
+  speaking:
+    output: true
+    permalink: /speaking/:path/
+
 # number of teaser posts to show on the landing page
 teaser_count:   3
 

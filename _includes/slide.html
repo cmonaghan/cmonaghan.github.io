@@ -1,0 +1,15 @@
+<div class="slide-row" id="slide-{{ include.id }}">
+  <div class="slide-image">
+    <img src="{{ include.image }}" alt="Slide {{ include.id }}">
+    <div class="slide-number">{{ include.id }}</div>
+  </div>
+  <div class="slide-content">
+    {% if include.title %}
+      <h3 class="slide-title">{{ include.title }}</h3>
+    {% endif %}
+    <div class="slide-text">
+      {{ include.content }}
+      <a href="#slide-{{ include.id }}" class="slide-link">#</a>
+    </div>
+  </div>
+</div> 

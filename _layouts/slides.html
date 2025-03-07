@@ -1,0 +1,28 @@
+---
+layout: main
+---
+<script>
+  document.body.classList.add('slides-page');
+</script>
+
+<div class="slides-container">
+  <header class="slides-header">
+    <h1>{{ page.title }}</h1>
+    {% if page.date %}
+      <p class="date">{{ page.date | date: "%B %Y" }}</p>
+    {% endif %}
+    {% if page.venue_full_name %}
+      <p class="venue">{{ page.venue_full_name }}</p>
+    {% endif %}
+  </header>
+  
+  <div class="slides-intro">
+    {{ page.description }}
+  </div>
+  
+  <hr class="slides-separator">
+  
+  <div class="slides-content">
+    {{ content }}
+  </div>
+</div>
