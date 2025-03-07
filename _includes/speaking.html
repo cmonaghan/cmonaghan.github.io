@@ -3,7 +3,8 @@
     
   <div class="section">
     <div class="row">
-      {% for speaking in site.speaking %}
+      {% assign sorted_speaking = site.speaking | sort: "date" | reverse %}
+      {% for speaking in sorted_speaking %}
         {% include speaking-thumbnail.html
           url=speaking.url
           image=speaking.thumbnail
