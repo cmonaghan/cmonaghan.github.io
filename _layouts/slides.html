@@ -1,0 +1,84 @@
+---
+layout: main
+---
+
+<div class="slides-container">
+  <header class="slides-header">
+    <h1>{{ page.title }}</h1>
+    {% if page.date %}
+      <p class="date">{{ page.date }}</p>
+    {% endif %}
+    {% if page.venue %}
+      <p class="venue">{{ page.venue }}</p>
+    {% endif %}
+  </header>
+  
+  <div class="slides-intro">
+    {{ page.description }}
+  </div>
+  
+  <div class="slides-content">
+    {{ content }}
+  </div>
+</div>
+
+<style>
+  .slides-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+  
+  .slides-header {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 1rem;
+  }
+  
+  .slides-header h1 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .slides-header .date, .slides-header .venue {
+    color: #777;
+    margin: 0.25rem 0;
+  }
+  
+  .slides-intro {
+    margin-bottom: 3rem;
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  
+  .slide-row {
+    display: flex;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #f5f5f5;
+    padding-bottom: 2rem;
+  }
+  
+  .slide-image {
+    flex: 0 0 40%;
+    margin-right: 2rem;
+  }
+  
+  .slide-image img {
+    width: 100%;
+    border: 1px solid #eee;
+  }
+  
+  .slide-content {
+    flex: 1;
+  }
+  
+  @media (max-width: 700px) {
+    .slide-row {
+      flex-direction: column;
+    }
+    
+    .slide-image {
+      margin-right: 0;
+      margin-bottom: 1rem;
+    }
+  }
+</style>
