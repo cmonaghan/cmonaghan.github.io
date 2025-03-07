@@ -84,7 +84,7 @@ body.slides-page .container {
 }
 
 .slide-image {
-  flex: 0 0 45% !important;
+  flex: 0 0 66.666% !important; /* 2/3 of the width */
   margin-right: 2rem !important;
   position: relative !important;
 }
@@ -111,7 +111,7 @@ body.slides-page .container {
 }
 
 .slide-content {
-  flex: 1 !important;
+  flex: 0 0 calc(33.333% - 2rem) !important; /* 1/3 of the width minus margin */
 }
 
 .slide-title {
@@ -136,7 +136,11 @@ body.slides-page .container {
   }
   
   .slide-image {
-    flex: 0 0 40% !important;
+    flex: 0 0 60% !important; /* Slightly reduced for medium screens */
+  }
+  
+  .slide-content {
+    flex: 0 0 calc(40% - 2rem) !important;
   }
 }
 
@@ -159,6 +163,7 @@ body.slides-page .container {
   
   .slide-content {
     width: 100% !important;
+    flex: none !important;
   }
   
   .slide-title {
