@@ -68,9 +68,16 @@ body.slides-page .container {
 }
 
 .slides-intro {
-  margin-bottom: 3rem !important;
+  margin-bottom: 2rem !important;
   font-size: 1.2em !important;
   line-height: 1.6 !important;
+}
+
+.slides-separator {
+  border: 0 !important;
+  height: 1px !important;
+  background-color: #ddd !important;
+  margin: 2rem 0 3rem !important;
 }
 
 .slide-row {
@@ -182,7 +189,11 @@ body.slides-page .container {
   }
   
   .slides-intro {
-    margin-bottom: 2rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+  
+  .slides-separator {
+    margin: 1.5rem 0 2rem !important;
   }
   
   .slide-number {
@@ -190,4 +201,4 @@ body.slides-page .container {
     height: 25px !important;
     font-size: 0.9em !important;
   }
-} 
+}
