@@ -1,0 +1,25 @@
+<a href="{{ include.url }}" class="one-third column project-image">
+  <div>
+    <img class="u-max-full-width" src="{{ include.image }}">
+    <h5>{{ include.venue }}</h5>
+    <div class="catalogue-line"></div>
+    
+    <p style="text-align: left;">
+      {{ include.title | truncatewords: 30 | strip_html }}
+    </p>
+
+  </div>
+</a>
+<!-- 
+<a href="{{ post.url | prepend: site.url }}" class="catalogue-item">
+  <div>
+    <time datetime="{{ post.date }}" class="catalogue-date">{{ post.date | date: "%B %d, %Y" }}</time>
+    <h5 class="catalogue-title">{{ post.title }}</h5>
+    <div class="catalogue-line"></div>
+
+    <p>
+      {{ post.content | truncatewords: 30 | strip_html }}
+    </p>
+
+  </div>
+</a> -->
