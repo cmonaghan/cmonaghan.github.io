@@ -1,9 +1,6 @@
 ---
 layout: main
 ---
-
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/slides.css">
-
 <script>
   document.body.classList.add('slides-page');
 </script>
@@ -12,7 +9,7 @@ layout: main
   <header class="slides-header">
     <h1>{{ page.title }}</h1>
     {% if page.date %}
-      <p class="date">{{ page.date }}</p>
+      <p class="date">{{ page.date | date: "%B %Y" }}</p>
     {% endif %}
     {% if page.venue %}
       <p class="venue">{{ page.venue }}</p>
