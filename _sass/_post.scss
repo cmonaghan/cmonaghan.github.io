@@ -23,3 +23,25 @@
     margin: 0 0 2.5rem;
   }
 }
+
+/* Featured Posts Section */
+.featured-posts {
+  margin-bottom: 3rem;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+
+  .catalogue-item {
+    border-bottom: none;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+h3 {
+  color: $default-shade;
+  font-family: $sans-font;
+  margin: 2rem 0 1rem;
+}
