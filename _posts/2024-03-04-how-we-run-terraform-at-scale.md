@@ -10,7 +10,7 @@ I wrote about how we run Terraform at scale at Benchling. You can read the full 
 <a href="{{ page.canonical_url }}" target="_blank"><button>Read the post</button></a>
 
 This article covers:
-- How Benchling manages 165k+ cloud resources and hundreds of Terraform workspace.
+- How Benchling manages 165k+ cloud resources and hundreds of Terraform workspaces.
 - How our infrastructure release automation process slashed developer toil and saves 8,000 developer hours annually.
 - How we eliminate infrastructure drift and keep our systems reliably in sync.
 - Specific automations and optimizations we've built around Terraform Cloud.
