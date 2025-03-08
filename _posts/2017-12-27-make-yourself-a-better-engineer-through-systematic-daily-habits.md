@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Make Yourself A Better Engineer Through Systematic Daily Habits"
-featured: true
 ---
 
 When I was 10 years old I learned the power of daily habits by procrastinating for piano lessons.
