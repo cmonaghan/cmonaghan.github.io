@@ -30,12 +30,14 @@ layout: main
       <b>Repository:</b> <a href="https://github.com/cmonaghan/{{ page.repo_name }}">cmonaghan/{{ page.repo_name }}</a>
     {% endif %}
   </p>
+
+  {% if page.link %}
+    <a class="button" href="{{ page.link }}" target="_blank">Visit site</a>
+  {% endif %}
+
   <div class="post-line"></div>
 
   {{ content }}
 
-  {% if page.link %}
-    <a class="button" href="{{ page.link }}" target="_blank">Check it out</a>
-  {% endif %}
 
 </div>
