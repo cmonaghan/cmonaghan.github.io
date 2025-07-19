@@ -9,6 +9,8 @@ infra:     "AWS Lambda, DynamoDB, CloudFront, S3, Cognito, Serverless Framework"
 apis:      "Cloudinary, MixPanel, Google SSO"
 ---
 
+Here's something I built before the advent of AI coding tools.
+
 ### Landing Page
 
 ![GoWishbone landing page](../assets/2025-03-16-gowishbone-landing.png)
