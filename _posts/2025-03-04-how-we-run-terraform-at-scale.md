@@ -2,7 +2,7 @@
 layout: post
 title: How We Run Terraform at Scale
 canonical_url: https://benchling.engineering/how-we-run-terraform-at-scale-da7bb75dc394
-featured: true
+# featured: true
 ---
 
 I wrote about how we run Terraform at scale at Benchling. You can read the full article on the [Benchling Engineering blog]({{ page.canonical_url }}){:target="_blank"}.

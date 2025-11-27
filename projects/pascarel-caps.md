@@ -1,8 +1,8 @@
 ---
 layout:    project
 title:     "Pascarel Caps"
-date:      "Winter 2022"
-goal:      "Design, manufacture, and sell baseball caps using high-quality fabrics."
+date:      "Winter 2022 - Fall 2024"
+goal:      "Design, manufacture, and sell baseball caps with classic menswear fabrics."
 ---
 
 I wound this project down in 2024, but here are some photos of my work. (I also had a beautiful website but didn't save any screenshots.)

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  What the Equifax Breach Means for the Future of Online Security
-featured: true
+# featured: true
 ---
 
 I'm the engineering lead for the login system used by two of the US government's largest consumer websites.

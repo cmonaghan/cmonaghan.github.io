@@ -2,7 +2,7 @@
 layout: post
 title: Building an LLM-Powered Slackbot
 canonical_url: https://benchling.engineering/building-an-llm-powered-slackbot-557a6241e993
-featured: true
+# featured: true
 ---
 
 Here's how we built a Retrieval-Augmented Generation (RAG) LLM-powered Slackbot at Benchling. You can read the full article on the [Benchling Engineering blog]({{ page.canonical_url }}){:target="_blank"}.

@@ -1,19 +1,19 @@
 <div class="section-content" id="writing">
   <h1>Writing</h1>
 
-  {% if paginator.page == 1 %}
+  <!-- {% if paginator.page == 1 %} -->
   <!-- Featured Posts Section -->
-  <h3>Featured</h3>
+  <!-- <h3>Featured</h3>
   <div class="catalogue featured-posts">
     {% assign featured_posts = site.posts | where: "featured", true | limit: 3 %}
     {% for post in featured_posts limit: 3%}
       {% include teaser-post.html %}
     {% endfor %}
   </div>
-  {% endif %}
+  {% endif %} -->
 
   {% if paginator.page == 1 %}
-  <h3>Recent Posts</h3>
+  <!-- <h3>Older Posts</h3> -->
   {% endif %}
   <div class="catalogue">
     {% assign featured_post_urls = featured_posts | map: 'url' %}
