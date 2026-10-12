@@ -24,6 +24,9 @@ sass:
 
 # Build settings
 markdown:       kramdown
+# github-pages would otherwise enable jekyll-theme-primer. This site ships its
+# own CSS, and the theme's Sass fails on Cloudflare's US-ASCII locale.
+theme:          null
 
 # About
 author:
